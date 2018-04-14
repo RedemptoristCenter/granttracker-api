@@ -1,5 +1,6 @@
 const router = require('express').Router();
 const moment = require('moment');
+const _ = require('lodash');
 const db = require('../db/db')
 // const passport = require('passport');
 // const moment = require('moment');
@@ -8,6 +9,43 @@ const db = require('../db/db')
 router.get('/test', (req, res) => {
     res.send({'text': 'hello'});
 });
+
+router.post('/client', (req, res) => {
+    const { birthDate, firstName, lastName, middleName,
+            address, city, state, zipCode, phone,
+            houseSize, ssn, gender, familyType,
+            hohRelation, ethnicity, race, veteran,
+            disability, housing
+    } = req.body;
+
+    const newClient = {
+        Fname: firstName,
+        Lname: lastName,
+        Mname: middleName,
+        birth_date: birthDate,
+        address,
+        city,
+        state,
+        zipcode: zipCode,
+        phone_num: phone,
+        house_size: houseSize,
+        ssn_cd: ssn,
+        gender_cd: gender,
+        family_type_cd: familyType,
+        reltn_to_hoh_cd: hohRelation,
+        ethnicity_cd: ethnicity,
+        race_cd: race,
+        veteran_cd: veteran,
+        disability_cd: disability,
+        housing_cd: housing
+    }
+
+    db.query('INSERT INTO client SET ?', newClient, function(err, results, fields) {
+        if (err) { return res.send(err); }
+
+        res.send(results);
+    })
+})
 
 router.post('/client/search', (req, res) => {
     const { lastName=null, firstName=null, birthDate=null } = req.body;
