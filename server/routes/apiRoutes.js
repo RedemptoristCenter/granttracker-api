@@ -47,7 +47,10 @@ router.post('/client/search', (req, res) => {
 router.get('/client/:clientId', (req, res) => {
     const clientId = req.params.clientId;
     
-    res.send({ clientId });
+    db.query('SELECT * FROM client WHERE client_id = ?', [clientId], function(err, data, fields) {
+        console.log(data);
+        res.send(data[0]);   
+    });
 });
 
 module.exports = router;
