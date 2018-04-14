@@ -31,10 +31,10 @@ router.post('/client/search', (req, res) => {
         }
     }
 
-    console.log(qString);
+    // console.log(qString);
     
     db.query(qString, function(err, data, fields) {
-        console.log(data);
+        // console.log(data);
         res.send(data);
     })
     // res.send({
@@ -49,7 +49,7 @@ router.get('/client/:clientId', (req, res) => {
     const clientId = req.params.clientId;
     
     db.query('SELECT * FROM client WHERE client_id = ?', [clientId], function(err, data, fields) {
-        console.log(data);
+        // console.log(data);
         res.send(data[0]);   
     });
 });
@@ -61,7 +61,7 @@ router.post('/grant/search', (req, res) => {
     const qMaxAmount = maxAmount ? maxAmount : 1000000;
     const qStartDate = startDate ? startDate : 0;
     const qEndDate = endDate ? endDate : moment().add(5, 'y').valueOf();
-    console.log(qGrantName);
+    // console.log(qGrantName);
 
     let qString, qParams;
 
@@ -74,7 +74,7 @@ router.post('/grant/search', (req, res) => {
     }
     console.log(qParams);
     db.query(qString, qParams, function(err, data, fields) {
-        console.log(data);
+        // console.log(data);
         res.send(data);
     })
 });
@@ -87,4 +87,37 @@ router.get('/grant/:grantId', (req, res) => {
     });
 });
 
-module.exports = router
+router.get('/codeset', (req, res) => {
+    const parsedCodeSet = getCodeSets(res);
+});
+
+function getCodeSets(res) {
+    db.query('SELECT * FROM code_set', function(err, data, fields) {
+        getCodeValues(res, data);
+    });
+}
+
+function getCodeValues(res, codeSets) {
+    db.query('SELECT * FROM code_value_alias', function(err, data, fields) {
+        parseCodeValues(res, codeSets, data);
+    });
+}
+
+function parseCodeValues(res, codeSets, codeValues) {
+    let parsedCodeSet = {};
+    for (let i=0; i < codeSets.length; i++){
+        let codeSetName = codeSets[i].codeset_name;
+        let codes = codeValues.filter(value => value.codeset_id == codeSets[i].codeset_id).map(value => {
+            return {
+                name: value.codevalue_name,
+                id: value.codevalue_id
+            }
+        })
+        parsedCodeSet[codeSetName] = codes
+    }
+
+    console.log(parsedCodeSet);
+    res.send(parsedCodeSet);
+}
+
+module.exports = router;
