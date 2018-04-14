@@ -1,6 +1,8 @@
 const router = require('express').Router();
+const db = require('../db/db')
 // const passport = require('passport');
 // const moment = require('moment');
+
 
 router.get('/test', (req, res) => {
     res.send({'text': 'hello'});
@@ -8,12 +10,37 @@ router.get('/test', (req, res) => {
 
 router.post('/client/search', (req, res) => {
     const { lastName=null, firstName=null, birthDate=null } = req.body;
+    
+    const qLast = lastName ? `'${lastName}%'` : "'%abc%'";
+    const qFirst = firstName ? `'${firstName}%'` : "'%abc%'";
+    let qString;
 
-    res.send({
-        lastName,
-        firstName,
-        birthDate
-    });
+    if (firstName && lastName) {
+        if (birthDate) {
+            qString = `SELECT * FROM client WHERE Lname LIKE ${qLast} AND Fname LIKE ${qFirst} AND birth_date=${birthDate}`;
+        } else {
+            qString = `SELECT * FROM client WHERE Lname LIKE ${qLast} AND Fname LIKE ${qFirst}`;
+        }
+    } else {
+        if (birthDate) {
+            qString = `SELECT * FROM client WHERE Lname (LIKE ${qLast} OR Fname LIKE ${qFirst}) AND birth_date=${birthDate}`;
+        } else {
+            qString = `SELECT * FROM client WHERE Lname LIKE ${qLast} OR Fname LIKE ${qFirst}`;
+        }
+    }
+
+
+    console.log(qString);
+    
+    db.query(qString, function(err, data, fields) {
+        console.log(data);
+        res.send(data);
+    })
+    // res.send({
+    //     lastName,
+    //     firstName,
+    //     birthDate
+    // });
 
 });
 

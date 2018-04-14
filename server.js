@@ -8,6 +8,10 @@ const apiRoutes = require('./server/routes/apiRoutes');
 
 const app = express();
 
+//const db = require('./server/db/db')
+ 
+  
+
 app.use(morgan('combined'));
 
 
