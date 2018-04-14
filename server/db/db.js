@@ -15,9 +15,9 @@ const connection = mysql.createConnection({
     }
     console.log('connected as id ' + connection.threadId);
     
-    connection.query('select * from client', function(err, res, fields) {
-    console.log(res);
-  })
+    // connection.query('select * from client', function(err, res, fields) {
+    // console.log(res);
+//   })
 });
 
 module.exports = connection;
