@@ -79,4 +79,12 @@ router.post('/grant/search', (req, res) => {
     })
 });
 
+router.get('/grant/:grantId', (req, res) => {
+    const grantId = req.params.grantId;
+
+    db.query('SELECT * FROM grant_data WHERE grant_id = ?', [grantId], function(err, data, fields) {
+        res.send(data[0]);
+    });
+});
+
 module.exports = router
