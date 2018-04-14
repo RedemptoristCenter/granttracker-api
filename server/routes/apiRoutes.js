@@ -102,6 +102,22 @@ router.get('/grant/:grantId', (req, res) => {
     });
 });
 
+router.get('/grant/:grantId/records', (req, res) => {
+    const grantId = req.params.grantId;
+
+    let qString = 'select c.Fname,c.Lname,tr.amount AS Trans_amount,gd.grant_name,gd.remaining_amount AS';
+    qString += ' Remaining_total,gd.initial_amount AS Grant_total,t.date';
+    qString += ' from client as c,transaction as t,trans_reltn as tr,grant_data as gd';
+    qString += ' where c.client_id = t.client_id';
+    qString += ' and t.trans_id = tr.trans_id';
+    qString += ' and tr.grant_id = gd.grant_id';
+    qString += ' and gd.grant_id = ?';
+
+    db.query(qString, [grantId], function(err, data, fields) {
+        res.send(data);
+    });
+});
+
 router.get('/codeset', (req, res) => {
     const parsedCodeSet = getCodeSets(res);
 });
