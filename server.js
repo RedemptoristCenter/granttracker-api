@@ -2,6 +2,7 @@ const express = require("express");
 const path = require("path");
 const bodyParser = require("body-parser");
 const morgan = require("morgan");
+const cors = require("cors");
 // const passport = require('passport');
 
 const apiRoutes = require('./server/routes/apiRoutes');
@@ -13,6 +14,7 @@ const app = express();
   
 
 app.use(morgan('combined'));
+app.use(cors());
 
 
 const PORT = process.env.PORT || 3000;
