@@ -1,4 +1,5 @@
 const router = require('express').Router();
+const moment = require('moment');
 const db = require('../db/db')
 // const passport = require('passport');
 // const moment = require('moment');
@@ -53,6 +54,29 @@ router.get('/client/:clientId', (req, res) => {
     });
 });
 
+router.post('/grant/search', (req, res) => {
+    const { grantName=null, minAmount=null, maxAmount=null, startDate=null, endDate=null } = req.body;
+    const qGrantName = `%${grantName}%`;
+    const qMinAmount = minAmount ? minAmount : 0;
+    const qMaxAmount = maxAmount ? maxAmount : 1000000;
+    const qStartDate = startDate ? startDate : 0;
+    const qEndDate = endDate ? endDate : moment().add(5, 'y').valueOf();
+    console.log(qGrantName);
 
+    let qString, qParams;
 
-module.exports = router;
+    if (grantName) {
+        qString = 'select * from grant_data where grant_name LIKE ? AND initial_amount BETWEEN ? AND ? AND start_dt_tm >= ? AND end_dt_tm <= ?';
+        qParams = [qGrantName, qMinAmount, qMaxAmount, qStartDate, qEndDate];
+    } else {
+        qString = 'select * from grant_data where initial_amount BETWEEN ? AND ? AND start_dt_tm >= ? AND end_dt_tm <= ?';
+        qParams = [qMinAmount, qMaxAmount, qStartDate, qEndDate];
+    }
+    console.log(qParams);
+    db.query(qString, qParams, function(err, data, fields) {
+        console.log(data);
+        res.send(data);
+    })
+});
+
+module.exports = router
