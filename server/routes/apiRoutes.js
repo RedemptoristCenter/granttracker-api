@@ -14,21 +14,21 @@ router.post('/client/search', (req, res) => {
     const qLast = lastName ? `'${lastName}%'` : "'%abc%'";
     const qFirst = firstName ? `'${firstName}%'` : "'%abc%'";
     let qString;
+    const selects = 'Fname,Lname,address,birth_date,client_id';
 
     if (firstName && lastName) {
         if (birthDate) {
-            qString = `SELECT * FROM client WHERE Lname LIKE ${qLast} AND Fname LIKE ${qFirst} AND birth_date=${birthDate}`;
+            qString = `SELECT ${selects} FROM client WHERE Lname LIKE ${qLast} AND Fname LIKE ${qFirst} AND birth_date=${birthDate}`;
         } else {
-            qString = `SELECT * FROM client WHERE Lname LIKE ${qLast} AND Fname LIKE ${qFirst}`;
+            qString = `SELECT ${selects} FROM client WHERE Lname LIKE ${qLast} AND Fname LIKE ${qFirst}`;
         }
     } else {
         if (birthDate) {
-            qString = `SELECT * FROM client WHERE Lname (LIKE ${qLast} OR Fname LIKE ${qFirst}) AND birth_date=${birthDate}`;
+            qString = `SELECT ${selects} FROM client WHERE Lname (LIKE ${qLast} OR Fname LIKE ${qFirst}) AND birth_date=${birthDate}`;
         } else {
-            qString = `SELECT * FROM client WHERE Lname LIKE ${qLast} OR Fname LIKE ${qFirst}`;
+            qString = `SELECT ${selects} FROM client WHERE Lname LIKE ${qLast} OR Fname LIKE ${qFirst}`;
         }
     }
-
 
     console.log(qString);
     
