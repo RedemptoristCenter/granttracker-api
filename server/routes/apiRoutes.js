@@ -15,7 +15,7 @@ router.post('/client', (req, res) => {
             address, city, state, zipCode, phone,
             houseSize, ssn, gender, familyType,
             hohRelation, ethnicity, race, veteran,
-            disability, housing
+            disability, housing, hohId
     } = req.body;
 
     const newClient = {
@@ -37,7 +37,8 @@ router.post('/client', (req, res) => {
         race_cd: race,
         veteran_cd: veteran,
         disability_cd: disability,
-        housing_cd: housing
+        housing_cd: housing,
+        hoh_client_id: hohId
     }
 
     db.query('INSERT INTO client SET ?', newClient, function(err, results, fields) {
