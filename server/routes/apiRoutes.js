@@ -18,7 +18,9 @@ router.post('/client/search', (req, res) => {
 });
 
 router.get('/client/:clientId', (req, res) => {
-
+    const clientId = req.params.clientId;
+    
+    res.send({ clientId });
 });
 
 module.exports = router;
