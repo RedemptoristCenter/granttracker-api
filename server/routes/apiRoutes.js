@@ -11,34 +11,34 @@ router.get('/test', (req, res) => {
 });
 
 router.post('/client', (req, res) => {
-    const { birthDate, firstName, lastName, middleName,
-            address, city, state, zipCode, phone,
-            houseSize, ssn, gender, familyType,
-            hohRelation, ethnicity, race, veteran,
-            disability, housing, hohId
+    const { birth_date, Fname, Lname, Mname,
+            address, city, state, zipcode, phone_num,
+            house_size, ssn_cd, gender_cd, family_type_cd,
+            reltn_to_hoh_cd, ethnicity_cd, race_cd, veteran_cd,
+            disability_cd, housing_cd, hoh_client_id
     } = req.body;
 
     const newClient = {
-        Fname: firstName,
-        Lname: lastName,
-        Mname: middleName,
-        birth_date: birthDate,
+        Fname,
+        Lname,
+        Mname,
+        birth_date,
         address,
         city,
         state,
-        zipcode: zipCode,
-        phone_num: phone,
-        house_size: houseSize,
-        ssn_cd: ssn,
-        gender_cd: gender,
-        family_type_cd: familyType,
-        reltn_to_hoh_cd: hohRelation,
-        ethnicity_cd: ethnicity,
-        race_cd: race,
-        veteran_cd: veteran,
-        disability_cd: disability,
-        housing_cd: housing,
-        hoh_client_id: hohId
+        zipcode,
+        phone_num,
+        house_size,
+        ssn_cd,
+        gender_cd,
+        family_type_cd,
+        reltn_to_hoh_cd,
+        ethnicity_cd,
+        race_cd,
+        veteran_cd,
+        disability_cd,
+        housing_cd,
+        hoh_client_id
     }
 
     db.query('INSERT INTO client SET ?', newClient, function(err, results, fields) {
