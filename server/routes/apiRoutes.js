@@ -12,8 +12,8 @@ router.get('/test', (req, res) => {
 router.post('/client/search', (req, res) => {
     const { lastName=null, firstName=null, birthDate=null } = req.body;
     
-    const qLast = lastName ? `'${lastName}%'` : "'%abc%'";
-    const qFirst = firstName ? `'${firstName}%'` : "'%abc%'";
+    const qLast = lastName ? `'%${lastName}%'` : "'%abc%'";
+    const qFirst = firstName ? `'%${firstName}%'` : "'%abc%'";
     let qString;
     const selects = 'Fname,Lname,address,birth_date,client_id';
 
