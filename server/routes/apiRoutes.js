@@ -45,8 +45,46 @@ router.post('/client', (req, res) => {
         if (err) { return res.send(err); }
 
         res.send(results);
-    })
-})
+    });
+});
+
+router.put('/client/:clientId', (req, res) => {
+    const { birth_date, Fname, Lname, Mname,
+        address, city, state, zipcode, phone_num,
+        house_size, ssn_cd, gender_cd, family_type_cd,
+        reltn_to_hoh_cd, ethnicity_cd, race_cd, veteran_cd,
+        disability_cd, housing_cd, hoh_client_id
+    } = req.body;
+
+    const clientId = req.params.clientId;
+
+    const modifiedClient = {
+        Fname,
+        Lname,
+        Mname,
+        birth_date,
+        address,
+        city,
+        state,
+        zipcode,
+        phone_num,
+        house_size,
+        ssn_cd,
+        gender_cd,
+        family_type_cd,
+        reltn_to_hoh_cd,
+        ethnicity_cd,
+        race_cd,
+        veteran_cd,
+        disability_cd,
+        housing_cd,
+        hoh_client_id
+    }
+
+    db.query('UPDATE client SET ? where client_id = clientId', modifiedClient, function(err, results, fields) {
+        res.send(results);
+    });
+});
 
 router.post('/client/search', (req, res) => {
     const { lastName=null, firstName=null, birthDate=null } = req.body;
