@@ -54,6 +54,21 @@ router.get('/client/:clientId', (req, res) => {
     });
 });
 
+router.get('/client/:clientId/records', (req, res) => {
+    const clientId = req.params.clientId;
+
+    let qString = 'select c.Fname, c.Lname, tr.amount AS Trans_amount, gd.grant_name, gd.remaining_amount AS Remaining_total, gd.initial_amount AS Grant_total, t.date';
+    qString += ' from client as c, transaction as t, trans_reltn as tr, grant_data as gd';
+    qString += ' where c.client_id = t.client_id';
+    qString += ' and t.trans_id = tr.trans_id';
+    qString += ' and tr.grant_id = gd.grant_id';
+    qString += ' and c.client_id = ?';
+
+    db.query(qString, [clientId], function(err, data, fields) {
+        res.send(data);
+    });
+})
+
 router.post('/grant/search', (req, res) => {
     const { grantName=null, minAmount=null, maxAmount=null, startDate=null, endDate=null } = req.body;
     const qGrantName = `%${grantName}%`;
