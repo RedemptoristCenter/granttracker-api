@@ -56,9 +56,9 @@ router.post('/client/:clientId', (req, res) => {
         disability_cd, housing_cd, hoh_client_id
     } = req.body;
 
-    const clientId = req.params.clientId;
+    const clientId = parseInt(req.params.clientId, 10);
 
-    const modifiedClient = {
+    const modifiedClient = [
         Fname,
         Lname,
         Mname,
@@ -78,10 +78,15 @@ router.post('/client/:clientId', (req, res) => {
         veteran_cd,
         disability_cd,
         housing_cd,
-        hoh_client_id
-    }
+        hoh_client_id,
+        clientId
+    ]
+    console.log(modifiedClient);
+    let qString = 'UPDATE client SET Fname=?, Lname=?, Mname=?, birth_date=?, address=?, city=?, state=?, zipcode=?,';
+    qString += ' phone_num=?, house_size=?, ssn_cd=?, gender_cd=?, family_type_cd=?, reltn_to_hoh_cd=?, ethnicity_cd=?,';
+    qString += ' race_cd=?, veteran_cd=?, disability_cd=?, housing_cd=?, hoh_client_id=? where client_id = ?';
 
-    db.query('UPDATE client SET ? where client_id = clientId', modifiedClient, function(err, results, fields) {
+    db.query( qString, modifiedClient, function(err, results, fields) {
         res.send(results);
     });
 });
