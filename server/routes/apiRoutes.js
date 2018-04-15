@@ -219,7 +219,7 @@ router.post('/grant/search', (req, res) => {
 });
 
 router.post('/grant', (req, res) => {
-    const { grant_name='', initial_amount=0, remaining_amount=0, start_dt_tm=0, end_dt_tm=0 } = req.body;
+    let { grant_name='', initial_amount=0, remaining_amount=0, start_dt_tm=0, end_dt_tm=0 } = req.body;
     const newGrant = { grant_name, initial_amount, remaining_amount, start_dt_tm, end_dt_tm };
 
     if (typeof initial_amount === 'string') {
