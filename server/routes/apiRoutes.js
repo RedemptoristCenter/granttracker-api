@@ -273,6 +273,7 @@ router.post('/grant/update/:grantId', (req, res) => {
     let qString = 'UPDATE client SET grant_name=?, initial_amount=?, remaining_amount=?,';
     qString = ' start_dt_tm=?, end_dt_tm? WHERE grant_id=?';
     db.query(qString, modifiedGrant, function(err, results, fields) {
+        if (err) { res.send(err) }
 
         res.send(results);
     });
@@ -353,6 +354,7 @@ router.get('/grant/:grantId/report', (req, res) => {
 
 router.post('/transaction', (req, res) => {
     const { client_id, reason_cd=null, trans_type, trans_notes, assistance_transaction_obj={}, grants=[] } = req.body;
+    const date = moment().unix();
 
     if (grants.length > 0) {
         // grants = [{grant_id, amount},...]
@@ -372,7 +374,6 @@ router.post('/transaction', (req, res) => {
                     return res.status(400).send();
                 }
             }
-            const date = moment().unix();
             db.query('INSERT INTO transaction SET ?', {client_id, reason_cd, trans_type, trans_notes, assistance_transaction_obj, date}, function(err, results, fields) {
                 if (err) {return res.send(err)}
                 console.log(results);
