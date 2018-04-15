@@ -222,8 +222,12 @@ router.post('/grant', (req, res) => {
     const { grant_name='', initial_amount=0, remaining_amount=0, start_dt_tm=0, end_dt_tm=0 } = req.body;
     const newGrant = { grant_name, initial_amount, remaining_amount, start_dt_tm, end_dt_tm };
 
-    initial_amount = Number(initial_amount.replace(/[^0-9\.-]+/g,""));
-    remaining_amount = Number(remaining_amount.replace(/[^0-9\.-]+/g,""));
+    if (typeof initial_amount === 'string') {
+        initial_amount = Number(initial_amount.replace(/[^0-9\.-]+/g,""));
+    }
+    if (typeof remaining_amount === 'string') {
+        remaining_amount = Number(remaining_amount.replace(/[^0-9\.-]+/g,""));
+    }
 
     db.query('INSERT INTO grant_data SET ?', newGrant, function(err, results, fields) {
         if (err) { return res.send(err) }
@@ -275,13 +279,36 @@ router.get('/grant/:grantId/records', (req, res) => {
     });
 });
 
-// router.get('/grant/:grantId/report', (req, res) => {
-//     const grant_id = req.params.grantId;
+router.get('/grant/:grantId/report', (req, res) => {
+    const grant_id = req.params.grantId;
+    let grantInfo, grantTrans;
 
-//     const grantInfoProm = new Promise((resolve, reject) {
-//         const qString = 'SELECT grant_name, start_dt_tm, end_dt_tm';
-//     })
-// });
+    const grantInfoProm = new Promise(function(resolve, reject) {
+        const qString = 'SELECT * FROM grant_data WHERE grant_id=?';
+        db.query(qString, [grant_id], function(err, results, fields) {
+            if (err) { return reject(err) }
+
+            return resolve(results);
+        });
+    });
+
+    grantInfoProm.then(results => {
+        grantInfo = results[0];
+
+        return new Promise(function(resolve, reject) {
+            const qString = 'SELECT tr.amount, c.*, t.reason_cd';
+            qString += ' FROM client as c, transaction as t, trans_reltn as tr, grant_data as gd';
+            qString += ' WHERE c.client_id=t.client_id';
+            qString += ' AND t.trans_id=tr.trans_id';
+            qString += ' AND tr.grant_id=gd.grant_id';
+            qString += ' AND gd.grant_id=?';
+
+            db.query(qString, [grant_id], function(err, results, fields) {
+                if (err) { return reject(err) }
+            })
+        })
+    })
+});
 
 router.post('/transaction', (req, res) => {
     const { client_id, reason_cd, trans_type, trans_notes, assistance_transaction_obj, grants } = req.body;
