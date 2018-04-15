@@ -412,7 +412,7 @@ router.post('/transaction', (req, res) => {
         });
     } else {
         db.query('INSERT INTO transaction SET ?', {client_id, reason_cd, trans_type, trans_notes, assistance_transaction_obj, date}, function(err, results, fields) {
-            if (err) { return res.send(e) }
+            if (err) { return res.send(err) }
 
             return res.send(results);
         })
