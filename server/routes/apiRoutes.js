@@ -84,7 +84,7 @@ router.post('/client/update/:clientId', (req, res) => {
     console.log(modifiedClient);
     let qString = 'UPDATE client SET Fname=?, Lname=?, Mname=?, birth_date=?, address=?, city=?, state=?, zipcode=?,';
     qString += ' phone_num=?, house_size=?, ssn_cd=?, gender_cd=?, family_type_cd=?, reltn_to_hoh_cd=?, ethnicity_cd=?,';
-    qString += ' race_cd=?, veteran_cd=?, disability_cd=?, housing_cd=?, hoh_client_id=? where client_id = ?';
+    qString += ' race_cd=?, veteran_cd=?, disability_cd=?, housing_cd=?, hoh_client_id=? WHERE client_id = ?';
 
     db.query( qString, modifiedClient, function(err, results, fields) {
         res.send(results);
@@ -178,7 +178,25 @@ router.post('/grant/search', (req, res) => {
 
 router.post('/grant', (req, res) => {
     const { grant_name, initial_amount, remaining_amount, start_dt_tm, end_dt_tm } = req.body;
+    const newGrant = { grant_name, initial_amount, remaining_amount, start_dt_tm, end_dt_tm };
 
+    db.query('INSERT INTO grant_data SET ?', newGrant, function(err, results, fields) {
+        if (err) { return res.send(err) }
+
+        res.send(results);
+    })
+});
+
+router.post('/grant/update/:grantId', (req, res) => {
+    const { grant_name, initial_amount, remaining_amount, start_dt_tm, end_dt_tm };
+    const grantId = req.params.grantId;
+    const modifiedGrant = [grant_name, initial_amount, remaining_amount, start_dt_tm, end_dt_tm, grantId];
+
+    let qString = 'UPDATE client SET grant_name=?, initial_amount=?, remaining_amount=?,';
+    qString = ' start_dt_tm=?, end_dt_tm? WHERE grant_id=?';
+    db.query(qString, modifiedGrant, function(err, results, fields) {
+        res.send(results);
+    });
 });
 
 router.get('/grant/:grantId', (req, res) => {
