@@ -48,7 +48,7 @@ router.post('/client', (req, res) => {
     });
 });
 
-router.put('/client/:clientId', (req, res) => {
+router.post('/client/:clientId', (req, res) => {
     const { birth_date, Fname, Lname, Mname,
         address, city, state, zipcode, phone_num,
         house_size, ssn_cd, gender_cd, family_type_cd,
