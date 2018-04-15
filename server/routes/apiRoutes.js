@@ -328,11 +328,63 @@ router.post('/transaction', (req, res) => {
     });
 });
 
-router.post('/transaction/delete/:transId', (req, res) => {
+router.get('/transaction/delete/:transId', (req, res) => {
     const trans_id = req.params.transId;
+    let transReltns;
 
     const transReltnProm = new Promise(function(resolve, reject) {
+        db.query('SELECT * FROM trans_reltn WHERE trans_id=?', [trans_id], function(err, results, fields) {
+            if (err) { return reject(err) }
 
+            return resolve(results);
+        });
+    });
+
+    transReltnProm.then(results => {
+        transReltns = results;
+
+        const updateGrantsProms = transReltns.map(transReltn => {
+            return new Promise(function(resolve, reject) {
+                const qString = 'UPDATE grant_data SET remaining_amount = remaining_amount + ? WHERE grant_id=?';
+                db.query(qString, [transReltn.amount, transReltn.grant_id], function(err, results, fields) {
+                    if (err) { return reject(err) }
+
+                    return resolve(results);
+                });
+            });
+        });
+
+        return Promise.all(updateGrantsProms);
+
+    }).then(results => {
+        const removeTransReltnsProms = transReltns.map(transReltn => {
+            return new Promise(function(resolve, reject) {
+                const qString = 'DELETE FROM trans_reltn WHERE trans_id=?';
+                db.query(qString, [trans_id], function(err, results, fields) {
+                    if (err) { return reject(err) }
+
+                    return resolve(results);
+                });
+            });
+        });
+
+        return Promise.all(removeTransReltnsProms);
+
+    }).then(results => {
+        const removeTransProm = new Promise(function(resolve, reject) {
+            const qString = 'DELETE FROM transaction WHERE trans_id=?';
+            db.query(qString, [trans_id], function(err, results, fields) {
+                if (err) { return reject(err) }
+
+                return resolve(results);
+            });
+        });
+
+        return removeTransProm;
+    }).then(results => {
+        res.send(results);
+    }).catch(e => {
+        res.send(e);
     });
 });
 
