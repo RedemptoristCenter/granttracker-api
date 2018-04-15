@@ -219,7 +219,7 @@ router.post('/grant/search', (req, res) => {
 });
 
 router.post('/grant', (req, res) => {
-    const { grant_name, initial_amount, remaining_amount, start_dt_tm, end_dt_tm } = req.body;
+    const { grant_name='', initial_amount=0, remaining_amount=0, start_dt_tm=0, end_dt_tm=0 } = req.body;
     const newGrant = { grant_name, initial_amount, remaining_amount, start_dt_tm, end_dt_tm };
 
     db.query('INSERT INTO grant_data SET ?', newGrant, function(err, results, fields) {
@@ -283,7 +283,7 @@ router.post('/transaction', (req, res) => {
         for (let i=0; i < results.length; i++) {
             const grant = grants.filter(grant => grant.grant_id === results[i].grant_id)[0];
             grantRows = results;
-            if (results[i].remaining_amount < grant.amount) {
+            if (results[i].remaining_amount < parseInt(grant.amount)) {
                 return res.status(400).send();
             }
         }
@@ -293,14 +293,14 @@ router.post('/transaction', (req, res) => {
             console.log(results);
             const trans_id = results.insertId;
             transRows = grants.map(grant => {
-                return [trans_id, grant.grant_id, grant.amount]
+                return [trans_id, grant.grant_id, parseInt(grant.amount)]
             });
            db.query("INSERT INTO trans_reltn (trans_id, grant_id, amount) VALUES ?", [transRows], function(err, results, fields) {
                if (err) {return res.send(err)}
                 // want updateGrants = [{grant_id, *remaining_amount},...]
                 const updateGrants = grants.map(grant => {
                     let grantRow = grantRows.filter(row => row.grant_id === grant.grant_id)[0];
-                    let newRemaining = grantRow.remaining_amount - grant.amount;
+                    let newRemaining = grantRow.remaining_amount - parseInt(grant.amount);
                     return { 
                         grant_id: grant.grant_id,
                         remaining_amount: newRemaining
