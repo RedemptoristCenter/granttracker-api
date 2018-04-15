@@ -48,7 +48,7 @@ router.post('/client', (req, res) => {
     });
 });
 
-router.post('/client/:clientId', (req, res) => {
+router.post('/client/update/:clientId', (req, res) => {
     const { birth_date, Fname, Lname, Mname,
         address, city, state, zipcode, phone_num,
         house_size, ssn_cd, gender_cd, family_type_cd,
@@ -113,7 +113,7 @@ router.post('/client/search', (req, res) => {
         }
     }
 
-    // console.log(qString);
+    //console.log(qString);
     
     db.query(qString, function(err, data, fields) {
         // console.log(data);
@@ -174,6 +174,11 @@ router.post('/grant/search', (req, res) => {
         // console.log(data);
         res.send(data);
     })
+});
+
+router.post('/grant', (req, res) => {
+    const { grant_name, initial_amount, remaining_amount, start_dt_tm, end_dt_tm } = req.body;
+
 });
 
 router.get('/grant/:grantId', (req, res) => {
