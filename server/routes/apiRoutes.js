@@ -60,7 +60,9 @@ router.post('/client/update/:clientId', (req, res) => {
         address, city, state, zipcode, phone_num,
         house_size, ssn_cd, gender_cd, family_type_cd,
         reltn_to_hoh_cd, ethnicity_cd, race_cd, veteran_cd,
-        disability_cd, housing_cd, hoh_client_id
+        disability_cd, housing_cd, hoh_client_id,
+        income_source_obj, non_cash_obj, expenditure_obj,
+        total_household_income, total_net_income
     } = req.body;
 
     const clientId = parseInt(req.params.clientId, 10);
@@ -81,16 +83,23 @@ router.post('/client/update/:clientId', (req, res) => {
         family_type_cd,
         reltn_to_hoh_cd,
         ethnicity_cd,
+        income_source_obj,
+        expenditure_obj,
+        non_cash_obj,
+        total_household_income,
+        total_net_income,
         race_cd,
         veteran_cd,
         disability_cd,
         housing_cd,
         hoh_client_id,
         clientId
+        
     ]
     console.log(modifiedClient);
     let qString = 'UPDATE client SET Fname=?, Lname=?, Mname=?, birth_date=?, address=?, city=?, state=?, zipcode=?,';
     qString += ' phone_num=?, house_size=?, ssn_cd=?, gender_cd=?, family_type_cd=?, reltn_to_hoh_cd=?, ethnicity_cd=?,';
+    qString += ' income_source_obj=?, expenditure_obj=?, non_cash_obj=?, total_household_income=?, total_net_income=?'
     qString += ' race_cd=?, veteran_cd=?, disability_cd=?, housing_cd=?, hoh_client_id=? WHERE client_id = ?';
 
     db.query( qString, modifiedClient, function(err, results, fields) {
