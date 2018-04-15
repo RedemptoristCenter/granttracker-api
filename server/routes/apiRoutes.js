@@ -163,7 +163,7 @@ router.get('/client/:clientId', (req, res) => {
 
         if (client.hoh_client_id) {
             db.query('SELECT * FROM client WHERE client_id = ?', [client.hoh_client_id], function(err, data, fields) {
-                const hoh = date[0]
+                const hoh = data[0]
                 hoh.income_source_obj = JSON.parse(hoh.income_source_obj);
                 hoh.expenditure_obj = JSON.parse(hoh.expenditure_obj);
                 hoh.non_cash_obj = JSON.parse(hoh.non_cash_obj);
