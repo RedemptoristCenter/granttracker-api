@@ -151,6 +151,15 @@ router.get('/client/:clientId/records', (req, res) => {
     });
 })
 
+router.get('/client/:clientId/household', (req, res) => {
+    let qString = 'SELECT * FROM client WHERE hoh_client_id=?';
+    const clientId = req.params.clientId;
+
+    db.query(qString, [clientId], function(err, results, fields) {
+        res.send(results);
+    });
+});
+
 router.post('/grant/search', (req, res) => {
     const { grantName=null, minAmount=null, maxAmount=null, startDate=null, endDate=null } = req.body;
     const qGrantName = `%${grantName}%`;
@@ -188,7 +197,7 @@ router.post('/grant', (req, res) => {
 });
 
 router.post('/grant/update/:grantId', (req, res) => {
-    const { grant_name, initial_amount, remaining_amount, start_dt_tm, end_dt_tm };
+    const { grant_name, initial_amount, remaining_amount, start_dt_tm, end_dt_tm } = req.body;
     const grantId = req.params.grantId;
     const modifiedGrant = [grant_name, initial_amount, remaining_amount, start_dt_tm, end_dt_tm, grantId];
 
