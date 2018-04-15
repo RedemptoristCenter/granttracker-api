@@ -244,6 +244,7 @@ router.post('/grant/update/:grantId', (req, res) => {
     let qString = 'UPDATE client SET grant_name=?, initial_amount=?, remaining_amount=?,';
     qString = ' start_dt_tm=?, end_dt_tm? WHERE grant_id=?';
     db.query(qString, modifiedGrant, function(err, results, fields) {
+
         res.send(results);
     });
 });
@@ -295,8 +296,8 @@ router.get('/grant/:grantId/report', (req, res) => {
     grantInfoProm.then(results => {
         grantInfo = results[0];
 
-        return new Promise(function(resolve, reject) {
-            const qString = 'SELECT tr.amount, c.*, t.reason_cd';
+        const grantTransProm = new Promise(function(resolve, reject) {
+            let qString = 'SELECT tr.amount, c.*, t.reason_cd';
             qString += ' FROM client as c, transaction as t, trans_reltn as tr, grant_data as gd';
             qString += ' WHERE c.client_id=t.client_id';
             qString += ' AND t.trans_id=tr.trans_id';
@@ -309,12 +310,15 @@ router.get('/grant/:grantId/report', (req, res) => {
                 return resolve(results);
             });
         });
+
+        return grantTransProm;
+
     }).then(results => {
         grantTrans = results;
 
-        res.send({grantInfo, grantTrans});
+        return res.send({grantInfo, grantTrans});
     }).catch(e => {
-        res.send(e);
+        return res.send(e);
     });
 });
 
