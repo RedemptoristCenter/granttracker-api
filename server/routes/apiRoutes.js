@@ -281,7 +281,9 @@ router.post('/transaction', (req, res) => {
     
     db.query('SELECT * FROM grant_data WHERE grant_id IN (?)', [grantIds], function(err, results, fields) {
         for (let i=0; i < results.length; i++) {
+            console.log(results);
             const grant = grants.filter(grant => grant.grant_id === results[i].grant_id)[0];
+            console.log(grant);
             grantRows = results;
             if (results[i].remaining_amount < grant.amount) {
                 return res.status(400).send();
