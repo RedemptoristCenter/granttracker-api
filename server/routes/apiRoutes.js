@@ -273,16 +273,32 @@ router.get('/grant/:grantId/records', (req, res) => {
 });
 
 router.post('/transaction', (req, res) => {
-    const { client_id, reason, grants } = req.body;
+    const { client_id, reason, assistance_transaction_obj, grants } = req.body;
     const grantIds = grants.map(grant => grant.grant_id);
+    let grantRows
+    
     db.query('SELECT * FROM grant_data WHERE grant_id IN (?)', [grantIds], function(err, results, fields) {
         for (let i=0; i < results.length; i++) {
             const grant = grants.filter(grant => grant.grant_id === results[i].grant_id)[0];
+            grantRows = results;
             if (results[i].remaining_amount < grant.amount) {
                 return res.status(400).send();
             }
         }
-        db.query
+        const date = moment().unix();
+        db.query('INSERT INTO transaction SET ?', {client_id, reason, assistance_transaction_obj, date}, function(err, results, fields) {
+            if (err) {return res.send(err)}
+            console.log(results);
+            const trans_id = results.insertId;
+            transRows = grants.map(grant => {
+                return [trans_id, grant.grant_id, grant.amount]
+            });
+           db.query("INSERT INTO trans_reltn (trans_id, grant_id, amount) VALUES ?", [transRows], function(err, results, fields) {
+               if (err) {return res.send(err)}
+
+               res.send(results);
+           })
+        });
     });
 });
 
