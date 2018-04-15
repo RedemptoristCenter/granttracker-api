@@ -353,7 +353,7 @@ router.get('/grant/:grantId/report', (req, res) => {
 });
 
 router.post('/transaction', (req, res) => {
-    const { client_id, reason_cd=null, trans_type, trans_notes, assistance_transaction_obj={}, grants=[] } = req.body;
+    let { client_id, reason_cd=null, trans_type, trans_notes, assistance_transaction_obj={}, grants=[] } = req.body;
     assistance_transaction_obj = JSON.stringify(assistance_transaction_obj);
     const date = moment().unix();
 
