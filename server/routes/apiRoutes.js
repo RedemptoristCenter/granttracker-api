@@ -87,7 +87,13 @@ router.post('/client/update/:clientId', (req, res) => {
     qString += ' race_cd=?, veteran_cd=?, disability_cd=?, housing_cd=?, hoh_client_id=? WHERE client_id = ?';
 
     db.query( qString, modifiedClient, function(err, results, fields) {
-        res.send(results);
+        if (reltn_to_hoh_cd != 17) {
+            db.query( 'UPDATE client SET hoh_client_id = NULL WHERE hoh_client_id=?', [clientId], function(err, results, fields) {
+                res.send(results);
+            })
+        } else {
+            res.send(results);
+        }
     });
 });
 
@@ -178,7 +184,6 @@ router.post('/client/:clientId/household', (req, res) => {
     });
 });
 
-
 router.post('/grant/search', (req, res) => {
     const { grantName=null, minAmount=null, maxAmount=null, startDate=null, endDate=null } = req.body;
     const qGrantName = `%${grantName}%`;
@@ -255,6 +260,14 @@ router.get('/grant/:grantId/records', (req, res) => {
 
     db.query(qString, [grantId], function(err, data, fields) {
         res.send(data);
+    });
+});
+
+router.post('/transaction', (req, res) => {
+    const { client_id, reason, grants } = req.body;
+    const grantIds = grants.map(grant => grant.grant_id);
+    db.query('SELECT * FROM grant_data WHERE grant_id IN (?)', [grantIds], function(err, results, fields) {
+
     });
 });
 
