@@ -138,7 +138,16 @@ router.get('/client/:clientId', (req, res) => {
     
     db.query('SELECT * FROM client WHERE client_id = ?', [clientId], function(err, data, fields) {
         // console.log(data);
-        res.send(data[0]);   
+        const client = data[0];
+        if (client.hoh_client_id) {
+            db.query('SELECT * FROM client WHERE client_id = ?', [client.hoh_client_id], function(err, data, fields) {
+                client.hoh = data[0];
+                res.send(client)
+            })
+        } else {
+            res.send(client);
+        }
+        
     });
 });
 
@@ -267,7 +276,13 @@ router.post('/transaction', (req, res) => {
     const { client_id, reason, grants } = req.body;
     const grantIds = grants.map(grant => grant.grant_id);
     db.query('SELECT * FROM grant_data WHERE grant_id IN (?)', [grantIds], function(err, results, fields) {
-
+        for (let i=0; i < results.length; i++) {
+            const grant = grants.filter(grant => grant.grant_id === results[i].grant_id)[0];
+            if (results[i].remaining_amount < grant.amount) {
+                return res.status(400).send();
+            }
+        }
+        db.query
     });
 });
 
