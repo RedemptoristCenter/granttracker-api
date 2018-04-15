@@ -305,9 +305,17 @@ router.get('/grant/:grantId/report', (req, res) => {
 
             db.query(qString, [grant_id], function(err, results, fields) {
                 if (err) { return reject(err) }
-            })
-        })
-    })
+
+                return resolve(results);
+            });
+        });
+    }).then(results => {
+        grantTrans = results;
+
+        res.send({grantInfo, grantTrans});
+    }).catch(e => {
+        res.send(e);
+    });
 });
 
 router.post('/transaction', (req, res) => {
