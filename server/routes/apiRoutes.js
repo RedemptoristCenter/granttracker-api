@@ -152,13 +152,32 @@ router.get('/client/:clientId/records', (req, res) => {
 })
 
 router.get('/client/:clientId/household', (req, res) => {
-    let qString = 'SELECT * FROM client WHERE hoh_client_id=?';
     const clientId = req.params.clientId;
+    let qString = 'SELECT * FROM client WHERE hoh_client_id=?';
 
     db.query(qString, [clientId], function(err, results, fields) {
         res.send(results);
     });
 });
+
+router.post('/client/:clientId/household', (req, res) => {
+    const { householdMembers } = req.body;
+    console.log(householdMembers);
+    const clientId = req.params.clientId;
+    console.log(clientId);
+
+    const qString = 'UPDATE client SET hoh_client_id = NULL WHERE hoh_client_id=?';
+    db.query(qString, [clientId], function(err, results, fields) {
+        console.log("inside");
+        console.log(results);
+        const qString = 'UPDATE client SET hoh_client_id=? WHERE client_id IN (?)';
+
+        db.query(qString, [clientId, householdMembers], function(err, results, fields) {
+            res.send(results);
+        });
+    });
+});
+
 
 router.post('/grant/search', (req, res) => {
     const { grantName=null, minAmount=null, maxAmount=null, startDate=null, endDate=null } = req.body;
@@ -207,6 +226,7 @@ router.post('/grant/update/:grantId', (req, res) => {
         res.send(results);
     });
 });
+
 
 router.get('/grant/:grantId', (req, res) => {
     const grantId = req.params.grantId;
