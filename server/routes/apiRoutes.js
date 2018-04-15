@@ -267,8 +267,19 @@ router.post('/grant', (req, res) => {
 });
 
 router.post('/grant/update/:grantId', (req, res) => {
-    const { grant_name, initial_amount, remaining_amount, start_dt_tm, end_dt_tm } = req.body;
+    let { grant_name, initial_amount, remaining_amount, start_dt_tm, end_dt_tm } = req.body;
     const grantId = req.params.grantId;
+    
+    if (typeof initial_amount === 'string') {
+        initial_amount = Number(initial_amount.replace(/[^0-9\.-]+/g,""));
+    }
+    console.log(initial_amount);
+
+    if (typeof remaining_amount === 'string') {
+        remaining_amount = Number(remaining_amount.replace(/[^0-9\.-]+/g,""));
+    }
+    console.log(remaining_amount);
+    
     const modifiedGrant = [grant_name, initial_amount, remaining_amount, start_dt_tm, end_dt_tm, grantId];
 
     let qString = 'UPDATE grant_data SET grant_name=?, initial_amount=?, remaining_amount=?,';
