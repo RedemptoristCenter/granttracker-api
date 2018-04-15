@@ -352,59 +352,70 @@ router.get('/grant/:grantId/report', (req, res) => {
 });
 
 router.post('/transaction', (req, res) => {
-    const { client_id, reason_cd, trans_type, trans_notes, assistance_transaction_obj, grants } = req.body;
-    // grants = [{grant_id, amount},...]
-    const grantIds = grants.map(grant => grant.grant_id);
-    let grantRows
-    // grantRows = [{grant_id, grant_name, initial_amount, remaining_amount, start_dt_tm, end_dt_tm}]
-    
-    db.query('SELECT * FROM grant_data WHERE grant_id IN (?)', [grantIds], function(err, results, fields) {
-        for (let i=0; i < results.length; i++) {
-            console.log(results);
-            const grant = grants.filter(grant => grant.grant_id === results[i].grant_id)[0];
-            console.log(grant);
-            grantRows = results;
-            if (results[i].remaining_amount < grant.amount) {
-                return res.status(400).send();
-            }
-        }
-        const date = moment().unix();
-        db.query('INSERT INTO transaction SET ?', {client_id, reason_cd, trans_type, trans_notes, assistance_transaction_obj, date}, function(err, results, fields) {
-            if (err) {return res.send(err)}
-            console.log(results);
-            const trans_id = results.insertId;
-            transRows = grants.map(grant => {
-                return [trans_id, grant.grant_id, grant.amount]
-            });
-           db.query("INSERT INTO trans_reltn (trans_id, grant_id, amount) VALUES ?", [transRows], function(err, results, fields) {
-               if (err) {return res.send(err)}
-                // want updateGrants = [{grant_id, *remaining_amount},...]
-                const updateGrants = grants.map(grant => {
-                    let grantRow = grantRows.filter(row => row.grant_id === grant.grant_id)[0];
-                    let newRemaining = grantRow.remaining_amount - grant.amount;
-                    return { 
-                        grant_id: grant.grant_id,
-                        remaining_amount: newRemaining
-                     }
-                });
+    const { client_id, reason_cd=null, trans_type, trans_notes, assistance_transaction_obj={}, grants=[] } = req.body;
 
-                updateGrantsProms = updateGrants.map(update => {
-                    return new Promise(function(resolve, reject) {
-                        db.query('UPDATE grant_data SET remaining_amount=? WHERE grant_id=?', [update.remaining_amount, update.grant_id], function(err, data, fields) {
-                            if (err) { reject(err) };
-                            
-                            resolve(data);
+    if (grants.length > 0) {
+        // grants = [{grant_id, amount},...]
+        const grantIds = grants.map(grant => grant.grant_id);
+        let grantRows
+        // grantRows = [{grant_id, grant_name, initial_amount, remaining_amount, start_dt_tm, end_dt_tm}]
+        
+        db.query('SELECT * FROM grant_data WHERE grant_id IN (?)', [grantIds], function(err, results, fields) {
+            if (err) { return res.send(err) }
+
+            for (let i=0; i < results.length; i++) {
+                console.log(results);
+                const grant = grants.filter(grant => grant.grant_id === results[i].grant_id)[0];
+                console.log(grant);
+                grantRows = results;
+                if (results[i].remaining_amount < grant.amount) {
+                    return res.status(400).send();
+                }
+            }
+            const date = moment().unix();
+            db.query('INSERT INTO transaction SET ?', {client_id, reason_cd, trans_type, trans_notes, assistance_transaction_obj, date}, function(err, results, fields) {
+                if (err) {return res.send(err)}
+                console.log(results);
+                const trans_id = results.insertId;
+                transRows = grants.map(grant => {
+                    return [trans_id, grant.grant_id, grant.amount]
+                });
+            db.query("INSERT INTO trans_reltn (trans_id, grant_id, amount) VALUES ?", [transRows], function(err, results, fields) {
+                if (err) {return res.send(err)}
+                    // want updateGrants = [{grant_id, *remaining_amount},...]
+                    const updateGrants = grants.map(grant => {
+                        let grantRow = grantRows.filter(row => row.grant_id === grant.grant_id)[0];
+                        let newRemaining = grantRow.remaining_amount - grant.amount;
+                        return { 
+                            grant_id: grant.grant_id,
+                            remaining_amount: newRemaining
+                        }
+                    });
+
+                    updateGrantsProms = updateGrants.map(update => {
+                        return new Promise(function(resolve, reject) {
+                            db.query('UPDATE grant_data SET remaining_amount=? WHERE grant_id=?', [update.remaining_amount, update.grant_id], function(err, data, fields) {
+                                if (err) { reject(err) };
+                                
+                                resolve(data);
+                            });
                         });
                     });
-                });
 
-                Promise.all(updateGrantsProms).then(results => {
-                    res.send(results);
-                })
-               //res.send(updateGrants);
-           })
+                    Promise.all(updateGrantsProms).then(results => {
+                        res.send(results);
+                    })
+                //res.send(updateGrants);
+            })
+            });
         });
-    });
+    } else {
+        db.query('INSERT INTO transaction SET ?', {client_id, reason_cd, trans_type, trans_notes, assistance_transaction_obj, date}, function(err, results, fields) {
+            if (err) { return res.send(e) }
+
+            return res.send(results);
+        })
+    }
 });
 
 router.get('/transaction/delete/:transId', (req, res) => {
