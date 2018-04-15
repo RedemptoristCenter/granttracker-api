@@ -222,6 +222,9 @@ router.post('/grant', (req, res) => {
     const { grant_name='', initial_amount=0, remaining_amount=0, start_dt_tm=0, end_dt_tm=0 } = req.body;
     const newGrant = { grant_name, initial_amount, remaining_amount, start_dt_tm, end_dt_tm };
 
+    initial_amount = Number(initial_amount.replace(/[^0-9\.-]+/g,""));
+    remaining_amount = Number(remaining_amount.replace(/[^0-9\.-]+/g,""));
+
     db.query('INSERT INTO grant_data SET ?', newGrant, function(err, results, fields) {
         if (err) { return res.send(err) }
 
@@ -271,6 +274,14 @@ router.get('/grant/:grantId/records', (req, res) => {
         res.send(data);
     });
 });
+
+// router.get('/grant/:grantId/report', (req, res) => {
+//     const grant_id = req.params.grantId;
+
+//     const grantInfoProm = new Promise((resolve, reject) {
+//         const qString = 'SELECT grant_name, start_dt_tm, end_dt_tm';
+//     })
+// });
 
 router.post('/transaction', (req, res) => {
     const { client_id, reason_cd, trans_type, trans_notes, assistance_transaction_obj, grants } = req.body;
