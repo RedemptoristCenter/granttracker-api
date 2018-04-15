@@ -270,7 +270,7 @@ router.post('/grant/update/:grantId', (req, res) => {
     const grantId = req.params.grantId;
     const modifiedGrant = [grant_name, initial_amount, remaining_amount, start_dt_tm, end_dt_tm, grantId];
 
-    let qString = 'UPDATE client SET grant_name=?, initial_amount=?, remaining_amount=?,';
+    let qString = 'UPDATE grant SET grant_name=?, initial_amount=?, remaining_amount=?,';
     qString += ' start_dt_tm=?, end_dt_tm=? WHERE grant_id=?';
     db.query(qString, modifiedGrant, function(err, results, fields) {
         if (err) { res.send(err) }
