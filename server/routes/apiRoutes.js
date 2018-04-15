@@ -41,9 +41,9 @@ router.post('/client', (req, res) => {
         disability_cd,
         housing_cd,
         hoh_client_id,
-        income_source_obj,
-        non_cash_obj,
-        expenditure_obj,
+        income_source_obj: JSON.stringify(income_source_obj),
+        non_cash_obj: JSON.stringify(non_cash_obj),
+        expenditure_obj: JSON.stringify(expenditure_obj),
         total_household_income,
         total_net_income
     }
@@ -83,9 +83,9 @@ router.post('/client/update/:clientId', (req, res) => {
         family_type_cd,
         reltn_to_hoh_cd,
         ethnicity_cd,
-        income_source_obj,
-        expenditure_obj,
-        non_cash_obj,
+        JSON.stringify(income_source_obj),
+        JSON.stringify(expenditure_obj),
+        JSON.stringify(non_cash_obj),
         total_household_income,
         total_net_income,
         race_cd,
@@ -106,7 +106,7 @@ router.post('/client/update/:clientId', (req, res) => {
         if (reltn_to_hoh_cd != 17) {
             db.query( 'UPDATE client SET hoh_client_id = NULL WHERE hoh_client_id=?', [clientId], function(err, results, fields) {
                 if (err) { return res.send(err) }
-                
+
                 res.send(results);
             })
         } else {
@@ -157,9 +157,17 @@ router.get('/client/:clientId', (req, res) => {
     db.query('SELECT * FROM client WHERE client_id = ?', [clientId], function(err, data, fields) {
         // console.log(data);
         const client = data[0];
+        client.income_source_obj = JSON.parse(client.income_source_obj);
+        client.expenditure_obj = JSON.parse(client.expenditure_obj);
+        client.non_cash_obj = JSON.parse(client.non_cash_obj);
+
         if (client.hoh_client_id) {
             db.query('SELECT * FROM client WHERE client_id = ?', [client.hoh_client_id], function(err, data, fields) {
-                client.hoh = data[0];
+                const hoh = date[0]
+                hoh.income_source_obj = JSON.parse(hoh.income_source_obj);
+                hoh.expenditure_obj = JSON.parse(hoh.expenditure_obj);
+                hoh.non_cash_obj = JSON.parse(hoh.non_cash_obj);
+                client.hoh = hoh;
                 res.send(client)
             })
         } else {
