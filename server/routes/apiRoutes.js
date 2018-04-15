@@ -107,15 +107,15 @@ router.post('/client/search', (req, res) => {
 
     if (firstName && lastName) {
         if (birthDate) {
-            qString = `SELECT ${selects} FROM client WHERE Lname LIKE ${qLast} AND Fname LIKE ${qFirst} AND birth_date=${birthDate}`;
+            qString = `SELECT * FROM client WHERE Lname LIKE ${qLast} AND Fname LIKE ${qFirst} AND birth_date=${birthDate}`;
         } else {
-            qString = `SELECT ${selects} FROM client WHERE Lname LIKE ${qLast} AND Fname LIKE ${qFirst}`;
+            qString = `SELECT * FROM client WHERE Lname LIKE ${qLast} AND Fname LIKE ${qFirst}`;
         }
     } else {
         if (birthDate) {
-            qString = `SELECT ${selects} FROM client WHERE Lname (LIKE ${qLast} OR Fname LIKE ${qFirst}) AND birth_date=${birthDate}`;
+            qString = `SELECT * FROM client WHERE Lname (LIKE ${qLast} OR Fname LIKE ${qFirst}) AND birth_date=${birthDate}`;
         } else {
-            qString = `SELECT ${selects} FROM client WHERE Lname LIKE ${qLast} OR Fname LIKE ${qFirst}`;
+            qString = `SELECT * FROM client WHERE Lname LIKE ${qLast} OR Fname LIKE ${qFirst}`;
         }
     }
 
@@ -325,6 +325,14 @@ router.post('/transaction', (req, res) => {
                //res.send(updateGrants);
            })
         });
+    });
+});
+
+router.post('/transaction/delete/:transId', (req, res) => {
+    const trans_id = req.params.transId;
+
+    const transReltnProm = new Promise(function(resolve, reject) {
+
     });
 });
 
