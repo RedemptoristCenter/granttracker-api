@@ -251,9 +251,12 @@ router.post('/grant', (req, res) => {
     if (typeof initial_amount === 'string') {
         initial_amount = Number(initial_amount.replace(/[^0-9\.-]+/g,""));
     }
+    console.log(initial_amount);
+
     if (typeof remaining_amount === 'string') {
         remaining_amount = Number(remaining_amount.replace(/[^0-9\.-]+/g,""));
     }
+    console.log(remaining_amount);
 
     db.query('INSERT INTO grant_data SET ?', newGrant, function(err, results, fields) {
         if (err) { return res.send(err) }
