@@ -227,13 +227,19 @@ router.post('/grant/update/:grantId', (req, res) => {
     });
 });
 
-
 router.get('/grant/:grantId', (req, res) => {
     const grantId = req.params.grantId;
 
-    db.query('SELECT * FROM grant_data WHERE grant_id = ?', [grantId], function(err, data, fields) {
-        res.send(data[0]);
-    });
+    if (grantId === 'current') {
+        const curDate = moment().unix();
+        db.query('SELECT * FROM grant_data WHERE start_dt_tm <= ? AND end_dt_tm >= ?', [curDate, curDate], function(err, data, fields) {
+            res.send(data);
+        });
+    } else {
+        db.query('SELECT * FROM grant_data WHERE grant_id = ?', [grantId], function(err, data, fields) {
+            res.send(data[0]);
+        });
+    } 
 });
 
 router.get('/grant/:grantId/records', (req, res) => {
