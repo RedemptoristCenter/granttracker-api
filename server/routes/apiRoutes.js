@@ -273,7 +273,7 @@ router.get('/grant/:grantId/records', (req, res) => {
 });
 
 router.post('/transaction', (req, res) => {
-    const { client_id, reason, assistance_transaction_obj, grants } = req.body;
+    const { client_id, reason_cd, trans_type, trans_notes, assistance_transaction_obj, grants } = req.body;
     // grants = [{grant_id, amount},...]
     const grantIds = grants.map(grant => grant.grant_id);
     let grantRows
@@ -288,7 +288,7 @@ router.post('/transaction', (req, res) => {
             }
         }
         const date = moment().unix();
-        db.query('INSERT INTO transaction SET ?', {client_id, reason, assistance_transaction_obj, date}, function(err, results, fields) {
+        db.query('INSERT INTO transaction SET ?', {client_id, reason_cd, trans_type, trans_notes, assistance_transaction_obj, date}, function(err, results, fields) {
             if (err) {return res.send(err)}
             console.log(results);
             const trans_id = results.insertId;
