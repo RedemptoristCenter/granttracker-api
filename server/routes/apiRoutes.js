@@ -15,7 +15,9 @@ router.post('/client', (req, res) => {
             address, city, state, zipcode, phone_num,
             house_size, ssn_cd, gender_cd, family_type_cd,
             reltn_to_hoh_cd, ethnicity_cd, race_cd, veteran_cd,
-            disability_cd, housing_cd, hoh_client_id
+            disability_cd, housing_cd, hoh_client_id,
+            income_source_obj={}, non_cash_obj={}, expenditure_obj={}, 
+            total_household_income, total_net_income
     } = req.body;
 
     const newClient = {
@@ -38,13 +40,18 @@ router.post('/client', (req, res) => {
         veteran_cd,
         disability_cd,
         housing_cd,
-        hoh_client_id
+        hoh_client_id,
+        income_source_obj,
+        non_cash_obj,
+        expenditure_obj,
+        total_household_income,
+        total_net_income
     }
 
     db.query('INSERT INTO client SET ?', newClient, function(err, results, fields) {
         if (err) { return res.send(err); }
 
-        res.send(results);
+        res.send({ "client_id": results.insertId });
     });
 });
 
