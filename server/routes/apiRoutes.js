@@ -163,7 +163,7 @@ router.get('/client/:clientId', (req, res) => {
 
         if (client.hoh_client_id) {
             db.query('SELECT * FROM client WHERE client_id = ?', [client.hoh_client_id], function(err, data, fields) {
-                const hoh = data[0]
+                const hoh = data[0];
                 hoh.income_source_obj = JSON.parse(hoh.income_source_obj);
                 hoh.expenditure_obj = JSON.parse(hoh.expenditure_obj);
                 hoh.non_cash_obj = JSON.parse(hoh.non_cash_obj);
@@ -246,7 +246,6 @@ router.post('/grant/search', (req, res) => {
 
 router.post('/grant', (req, res) => {
     let { grant_name='', initial_amount=0, remaining_amount=0, start_dt_tm=0, end_dt_tm=0 } = req.body;
-    const newGrant = { grant_name, initial_amount, remaining_amount, start_dt_tm, end_dt_tm };
 
     if (typeof initial_amount === 'string') {
         initial_amount = Number(initial_amount.replace(/[^0-9\.-]+/g,""));
@@ -257,6 +256,8 @@ router.post('/grant', (req, res) => {
         remaining_amount = Number(remaining_amount.replace(/[^0-9\.-]+/g,""));
     }
     console.log(remaining_amount);
+
+    const newGrant = { grant_name, initial_amount, remaining_amount, start_dt_tm, end_dt_tm };
 
     db.query('INSERT INTO grant_data SET ?', newGrant, function(err, results, fields) {
         if (err) { return res.send(err) }
@@ -509,7 +510,7 @@ function parseCodeValues(res, codeSets, codeValues) {
         parsedCodeSet[codeSetName] = codes
     }
 
-    console.log(parsedCodeSet);
+    // console.log(parsedCodeSet);
     res.send(parsedCodeSet);
 }
 
