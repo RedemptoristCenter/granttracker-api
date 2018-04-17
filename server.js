@@ -3,7 +3,7 @@ const path = require("path");
 const bodyParser = require("body-parser");
 const morgan = require("morgan");
 const cors = require("cors");
-// const passport = require('passport');
+const passport = require('passport');
 
 const apiRoutes = require('./server/routes/apiRoutes');
 
@@ -26,17 +26,17 @@ if (process.env.NODE_ENV === "production") {
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-// app.use(require('cookie-parser')());
+app.use(require('cookie-parser')());
 // app.use(require('connect-flash')());
-// app.use(require('express-session')({
-//   secret: 'keyboard cats',
-//   resave: false,
-//   saveUninitialized: false
-// }));
+app.use(require('express-session')({
+  secret: 'keyboard cats',
+  resave: false,
+  saveUninitialized: false
+}));
 
-// require('./server/config/passport')(passport);
-// app.use(passport.initialize());
-// app.use(passport.session());
+require('./server/auth/passport')(passport);
+app.use(passport.initialize());
+app.use(passport.session());
 
 app.use(express.static("client/build"));
 app.use('/api', apiRoutes);
