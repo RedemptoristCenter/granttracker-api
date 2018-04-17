@@ -1,5 +1,12 @@
 const db = require('../db/db');
 
+function parseUser(user) {
+  return {
+    user_name: user.user_name,
+    user_id: user.user_id
+  }
+}
+
 module.exports = function (passport) {
   const LocalStrategy = require('passport-local').Strategy;
 
@@ -15,7 +22,7 @@ module.exports = function (passport) {
         db.query(qString, [user_name, user_pass], function(err, results) {
           if (err) { return reject(err) }
 
-          if (results.length !== 1) {
+          if (results.length === 1) {
             return resolve( results[0] );
           } else {
             return resolve( null );
@@ -25,7 +32,7 @@ module.exports = function (passport) {
 
       userSearchProm.then(user => {
         if (user) {
-          return done(null, user);
+          return done(null, parseUser(user));
         } else {
           return done(null, false, {
             message: 'Invalid Login'
@@ -51,7 +58,7 @@ module.exports = function (passport) {
   });
 
   passport.deserializeUser(function(user_id, done) {
-    //console.log("deser deser deser");
+    console.log("deser deser deser");
     const userLookupProm = new Promise(function(resolve, reject) {
       const qString = 'SELECT * FROM user WHERE user_id=?';
       db.query(qString, [user_id], function(err, results) {
@@ -66,7 +73,7 @@ module.exports = function (passport) {
     });
 
     userLookupProm.then(user => {
-      done(null, user);
+      return done(null, parseUser(user));
     }).catch(err => done(e));
     
     
