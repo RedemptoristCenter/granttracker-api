@@ -127,7 +127,7 @@ router.post('/search', (req, res) => {
   if (birthDate) {
       qArr.push(`birth_date=${birthDate}`);
   }
-
+  console.log(qArr);
   let qWhere = '';
   if (qArr.length > 0) {
       qWhere = ` WHERE ${qArr.join(' AND ')}`
