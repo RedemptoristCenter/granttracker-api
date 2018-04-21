@@ -117,19 +117,45 @@ router.post('/search', (req, res) => {
   let qString;
   const selects = 'Fname,Lname,address,birth_date,client_id';
 
-  if (firstName && lastName) {
-      if (birthDate) {
-          qString = `SELECT * FROM client WHERE Lname LIKE ${qLast} AND Fname LIKE ${qFirst} AND birth_date=${birthDate}`;
-      } else {
-          qString = `SELECT * FROM client WHERE Lname LIKE ${qLast} AND Fname LIKE ${qFirst}`;
-      }
-  } else {
-      if (birthDate) {
-          qString = `SELECT * FROM client WHERE Lname (LIKE ${qLast} OR Fname LIKE ${qFirst}) AND birth_date=${birthDate}`;
-      } else {
-          qString = `SELECT * FROM client WHERE Lname LIKE ${qLast} OR Fname LIKE ${qFirst}`;
-      }
+  let qArr = [];
+  if (lastName) {
+      qArr.push(`Lname LIKE ${qLast}`);
   }
+  if (firstName) {
+      qArr.push(`Fname Like ${qFirst}`);
+  }
+  if (birthDate) {
+      qArr.push(`birth_date=${birthDate}`);
+  }
+
+  let qWhere = '';
+  if (qArr.length > 0) {
+      qWhere = ` WHERE ${qArr.join(' AND ')}`
+  }
+  console.log(qWhere);
+  qString = 'SELECT * FROM client' + qWhere;
+  console.log(qString)
+  
+  
+//   if (firstName) {
+
+//   } else if (lastName) {
+  
+//   } else if (birthDate) {
+
+//   } else if (firstName && lastName) {
+//       if (birthDate) {
+//           qString = `SELECT * FROM client WHERE Lname LIKE ${qLast} AND Fname LIKE ${qFirst} AND birth_date=${birthDate}`;
+//       } else {
+//           qString = `SELECT * FROM client WHERE Lname LIKE ${qLast} AND Fname LIKE ${qFirst}`;
+//       }
+//   } else {
+//       if (birthDate) {
+//           qString = `SELECT * FROM client WHERE Lname (LIKE ${qLast} OR Fname LIKE ${qFirst}) AND birth_date=${birthDate}`;
+//       } else {
+//           qString = `SELECT * FROM client WHERE Lname LIKE ${qLast} OR Fname LIKE ${qFirst}`;
+//       }
+//   }
 
   //console.log(qString);
   
