@@ -33,7 +33,7 @@ app.use(require('express-session')({
   resave: false,
   saveUninitialized: false,
   cookie: { 
-    domain: 'localhost',
+    domain: 'localhost:6075',
     maxAge: 6000000 }
 }));
 
