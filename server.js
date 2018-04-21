@@ -10,7 +10,9 @@ const apiRoutes = require('./server/routes/apiRoutes');
 const app = express();
 
 app.use(morgan('combined'));
-app.use(cors());
+app.use(cors({
+  credentials: true
+}));
 
 
 const PORT = process.env.PORT || 3000;
