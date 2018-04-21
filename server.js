@@ -27,7 +27,8 @@ app.use(require('cookie-parser')());
 app.use(require('express-session')({
   secret: 'keyboard cats',
   resave: false,
-  saveUninitialized: false
+  saveUninitialized: false,
+  cookie: { maxAge: 6000000 }
 }));
 
 require('./server/auth/passport')(passport);
