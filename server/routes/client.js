@@ -2,7 +2,7 @@ const router = require('express').Router();
 const db = require('../db/db')
 const checkAuth = require('./utils').checkAuth;
 
-router.use(checkAuth);
+// router.use(checkAuth);
 
 router.post('/', (req, res) => {
   const { birth_date, Fname, Lname, Mname,

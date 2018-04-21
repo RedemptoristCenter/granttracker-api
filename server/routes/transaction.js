@@ -2,7 +2,7 @@ const router = require('express').Router();
 const db = require('../db/db')
 const checkAuth = require('./utils').checkAuth;
 
-router.use(checkAuth);
+// router.use(checkAuth);
 
 router.post('/', (req, res) => {
   let { client_id, reason_cd=null, trans_type, trans_notes, assistance_transaction_obj={}, grants=[] } = req.body;

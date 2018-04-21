@@ -2,7 +2,7 @@ const router = require('express').Router();
 const db = require('../db/db')
 const checkAuth = require('./utils').checkAuth;
 
-router.use(checkAuth);
+// router.use(checkAuth);
 
 router.get('/', (req, res) => {
   const parsedCodeSet = getCodeSets(res);
