@@ -12,6 +12,7 @@ const app = express();
 app.use(morgan('combined'));
 app.use(cors({
   origin: ['http://localhost:6075'],
+  methods: ['GET', 'POST'],
   credentials: true
 }));
 
