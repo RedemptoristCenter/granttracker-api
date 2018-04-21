@@ -3,7 +3,7 @@ const db = require('../db/db')
 const checkAuth = require('./utils').checkAuth;
 const moment = require('moment');
 
-router.use(checkAuth);
+// router.use(checkAuth);
 
 router.post('/search', (req, res) => {
   const { grantName=null, minAmount=null, maxAmount=null, startDate=null, endDate=null } = req.body;
