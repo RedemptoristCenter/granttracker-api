@@ -11,15 +11,17 @@ const app = express();
 
 app.use(morgan('combined'));
 
-app.use(cors(
-  // {
-  // origin: ['http://localhost:6075'],
-  // methods: ['GET', 'POST'],
-  // credentials: true
-  // }
-));
+corsVars = {
+  origin: ['http://localhost:6075'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
+  methods: ['GET', 'POST', 'OPTIONS'],
+  credentials: true,
+  maxAge: 86400
+  }
+//
+app.use(cors(corsVars));
 
-app.options('*', cors());
+app.options('*', cors(corsVars));
 const PORT = process.env.PORT || 3000;
 // Serve up static assets (usually on heroku)
 if (process.env.NODE_ENV === "production") {
@@ -34,10 +36,7 @@ app.use(require('cookie-parser')());
 app.use(require('express-session')({
   secret: 'keyboard cats',
   resave: false,
-  saveUninitialized: false,
-  cookie: { 
-    domain: 'localhost:6075',
-    maxAge: 6000000 }
+  saveUninitialized: false
 }));
 
 require('./server/auth/passport')(passport);

@@ -1,6 +1,7 @@
 const db = require('../db/db');
 
 module.exports.checkAuth = function(req, res, next) {
+  console.log('checking auth');
   if (req.isAuthenticated()) {
     return next();
   } else {
