@@ -12,7 +12,7 @@ const app = express();
 app.use(morgan('combined'));
 
 corsVars = {
-  origin: ['http://localhost:6075'],
+  origin: ['http://localhost:6075', 'http://granttracker.herokuapp.com', 'https://granttracker.herokuapp.com'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   methods: ['GET', 'POST', 'OPTIONS'],
   credentials: true,
