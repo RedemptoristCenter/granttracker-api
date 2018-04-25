@@ -10693,9 +10693,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(history, 'history', '/home/nathan/Code/granttracker-web/app/src/common/history.js');
+  __REACT_HOT_LOADER__.register(history, 'history', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/common/history.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/common/history.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/common/history.js');
 }();
 
 ;
@@ -10830,79 +10830,79 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_SEARCH_BEGIN, 'CLIENTS_REQUEST_SEARCH_BEGIN', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/constants.js');
+  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_SEARCH_BEGIN, 'CLIENTS_REQUEST_SEARCH_BEGIN', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_SEARCH_SUCCESS, 'CLIENTS_REQUEST_SEARCH_SUCCESS', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/constants.js');
+  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_SEARCH_SUCCESS, 'CLIENTS_REQUEST_SEARCH_SUCCESS', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_SEARCH_FAILURE, 'CLIENTS_REQUEST_SEARCH_FAILURE', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/constants.js');
+  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_SEARCH_FAILURE, 'CLIENTS_REQUEST_SEARCH_FAILURE', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_SEARCH_DISMISS_ERROR, 'CLIENTS_REQUEST_SEARCH_DISMISS_ERROR', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/constants.js');
+  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_SEARCH_DISMISS_ERROR, 'CLIENTS_REQUEST_SEARCH_DISMISS_ERROR', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_CLIENT_BY_ID_BEGIN, 'CLIENTS_REQUEST_CLIENT_BY_ID_BEGIN', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/constants.js');
+  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_CLIENT_BY_ID_BEGIN, 'CLIENTS_REQUEST_CLIENT_BY_ID_BEGIN', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_CLIENT_BY_ID_SUCCESS, 'CLIENTS_REQUEST_CLIENT_BY_ID_SUCCESS', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/constants.js');
+  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_CLIENT_BY_ID_SUCCESS, 'CLIENTS_REQUEST_CLIENT_BY_ID_SUCCESS', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_CLIENT_BY_ID_FAILURE, 'CLIENTS_REQUEST_CLIENT_BY_ID_FAILURE', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/constants.js');
+  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_CLIENT_BY_ID_FAILURE, 'CLIENTS_REQUEST_CLIENT_BY_ID_FAILURE', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_CLIENT_BY_ID_DISMISS_ERROR, 'CLIENTS_REQUEST_CLIENT_BY_ID_DISMISS_ERROR', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/constants.js');
+  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_CLIENT_BY_ID_DISMISS_ERROR, 'CLIENTS_REQUEST_CLIENT_BY_ID_DISMISS_ERROR', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(CLIENTS_UPDATE_LOCAL_CLIENT_INFO, 'CLIENTS_UPDATE_LOCAL_CLIENT_INFO', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/constants.js');
+  __REACT_HOT_LOADER__.register(CLIENTS_UPDATE_LOCAL_CLIENT_INFO, 'CLIENTS_UPDATE_LOCAL_CLIENT_INFO', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(CLIENTS_CREATE_LOCAL_DEFAULT_CLIENT, 'CLIENTS_CREATE_LOCAL_DEFAULT_CLIENT', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/constants.js');
+  __REACT_HOT_LOADER__.register(CLIENTS_CREATE_LOCAL_DEFAULT_CLIENT, 'CLIENTS_CREATE_LOCAL_DEFAULT_CLIENT', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_CODESET_BEGIN, 'CLIENTS_REQUEST_CODESET_BEGIN', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/constants.js');
+  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_CODESET_BEGIN, 'CLIENTS_REQUEST_CODESET_BEGIN', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_CODESET_SUCCESS, 'CLIENTS_REQUEST_CODESET_SUCCESS', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/constants.js');
+  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_CODESET_SUCCESS, 'CLIENTS_REQUEST_CODESET_SUCCESS', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_CODESET_FAILURE, 'CLIENTS_REQUEST_CODESET_FAILURE', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/constants.js');
+  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_CODESET_FAILURE, 'CLIENTS_REQUEST_CODESET_FAILURE', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_CODESET_DISMISS_ERROR, 'CLIENTS_REQUEST_CODESET_DISMISS_ERROR', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/constants.js');
+  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_CODESET_DISMISS_ERROR, 'CLIENTS_REQUEST_CODESET_DISMISS_ERROR', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(CLIENTS_RESET_LOCAL_CLIENT_INFO, 'CLIENTS_RESET_LOCAL_CLIENT_INFO', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/constants.js');
+  __REACT_HOT_LOADER__.register(CLIENTS_RESET_LOCAL_CLIENT_INFO, 'CLIENTS_RESET_LOCAL_CLIENT_INFO', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_NEW_CLIENT_BEGIN, 'CLIENTS_REQUEST_NEW_CLIENT_BEGIN', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/constants.js');
+  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_NEW_CLIENT_BEGIN, 'CLIENTS_REQUEST_NEW_CLIENT_BEGIN', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_NEW_CLIENT_SUCCESS, 'CLIENTS_REQUEST_NEW_CLIENT_SUCCESS', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/constants.js');
+  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_NEW_CLIENT_SUCCESS, 'CLIENTS_REQUEST_NEW_CLIENT_SUCCESS', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_NEW_CLIENT_FAILURE, 'CLIENTS_REQUEST_NEW_CLIENT_FAILURE', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/constants.js');
+  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_NEW_CLIENT_FAILURE, 'CLIENTS_REQUEST_NEW_CLIENT_FAILURE', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_NEW_CLIENT_DISMISS_ERROR, 'CLIENTS_REQUEST_NEW_CLIENT_DISMISS_ERROR', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/constants.js');
+  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_NEW_CLIENT_DISMISS_ERROR, 'CLIENTS_REQUEST_NEW_CLIENT_DISMISS_ERROR', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_UPDATE_CLIENT_BY_ID_BEGIN, 'CLIENTS_REQUEST_UPDATE_CLIENT_BY_ID_BEGIN', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/constants.js');
+  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_UPDATE_CLIENT_BY_ID_BEGIN, 'CLIENTS_REQUEST_UPDATE_CLIENT_BY_ID_BEGIN', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_UPDATE_CLIENT_BY_ID_SUCCESS, 'CLIENTS_REQUEST_UPDATE_CLIENT_BY_ID_SUCCESS', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/constants.js');
+  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_UPDATE_CLIENT_BY_ID_SUCCESS, 'CLIENTS_REQUEST_UPDATE_CLIENT_BY_ID_SUCCESS', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_UPDATE_CLIENT_BY_ID_FAILURE, 'CLIENTS_REQUEST_UPDATE_CLIENT_BY_ID_FAILURE', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/constants.js');
+  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_UPDATE_CLIENT_BY_ID_FAILURE, 'CLIENTS_REQUEST_UPDATE_CLIENT_BY_ID_FAILURE', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_UPDATE_CLIENT_BY_ID_DISMISS_ERROR, 'CLIENTS_REQUEST_UPDATE_CLIENT_BY_ID_DISMISS_ERROR', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/constants.js');
+  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_UPDATE_CLIENT_BY_ID_DISMISS_ERROR, 'CLIENTS_REQUEST_UPDATE_CLIENT_BY_ID_DISMISS_ERROR', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(CLIENTS_UPDATE_LOCAL_HOUSEHOLD_ADD_CLIENT, 'CLIENTS_UPDATE_LOCAL_HOUSEHOLD_ADD_CLIENT', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/constants.js');
+  __REACT_HOT_LOADER__.register(CLIENTS_UPDATE_LOCAL_HOUSEHOLD_ADD_CLIENT, 'CLIENTS_UPDATE_LOCAL_HOUSEHOLD_ADD_CLIENT', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_CLIENT_HOUSEHOLD_BEGIN, 'CLIENTS_REQUEST_CLIENT_HOUSEHOLD_BEGIN', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/constants.js');
+  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_CLIENT_HOUSEHOLD_BEGIN, 'CLIENTS_REQUEST_CLIENT_HOUSEHOLD_BEGIN', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_CLIENT_HOUSEHOLD_SUCCESS, 'CLIENTS_REQUEST_CLIENT_HOUSEHOLD_SUCCESS', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/constants.js');
+  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_CLIENT_HOUSEHOLD_SUCCESS, 'CLIENTS_REQUEST_CLIENT_HOUSEHOLD_SUCCESS', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_CLIENT_HOUSEHOLD_FAILURE, 'CLIENTS_REQUEST_CLIENT_HOUSEHOLD_FAILURE', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/constants.js');
+  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_CLIENT_HOUSEHOLD_FAILURE, 'CLIENTS_REQUEST_CLIENT_HOUSEHOLD_FAILURE', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_CLIENT_HOUSEHOLD_DISMISS_ERROR, 'CLIENTS_REQUEST_CLIENT_HOUSEHOLD_DISMISS_ERROR', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/constants.js');
+  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_CLIENT_HOUSEHOLD_DISMISS_ERROR, 'CLIENTS_REQUEST_CLIENT_HOUSEHOLD_DISMISS_ERROR', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(CLIENTS_UPDATE_LOCAL_HOUSEHOLD_REMOVE_CLIENT, 'CLIENTS_UPDATE_LOCAL_HOUSEHOLD_REMOVE_CLIENT', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/constants.js');
+  __REACT_HOT_LOADER__.register(CLIENTS_UPDATE_LOCAL_HOUSEHOLD_REMOVE_CLIENT, 'CLIENTS_UPDATE_LOCAL_HOUSEHOLD_REMOVE_CLIENT', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_UPDATE_CLIENT_HOUSEHOLD_BEGIN, 'CLIENTS_REQUEST_UPDATE_CLIENT_HOUSEHOLD_BEGIN', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/constants.js');
+  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_UPDATE_CLIENT_HOUSEHOLD_BEGIN, 'CLIENTS_REQUEST_UPDATE_CLIENT_HOUSEHOLD_BEGIN', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_UPDATE_CLIENT_HOUSEHOLD_SUCCESS, 'CLIENTS_REQUEST_UPDATE_CLIENT_HOUSEHOLD_SUCCESS', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/constants.js');
+  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_UPDATE_CLIENT_HOUSEHOLD_SUCCESS, 'CLIENTS_REQUEST_UPDATE_CLIENT_HOUSEHOLD_SUCCESS', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_UPDATE_CLIENT_HOUSEHOLD_FAILURE, 'CLIENTS_REQUEST_UPDATE_CLIENT_HOUSEHOLD_FAILURE', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/constants.js');
+  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_UPDATE_CLIENT_HOUSEHOLD_FAILURE, 'CLIENTS_REQUEST_UPDATE_CLIENT_HOUSEHOLD_FAILURE', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_UPDATE_CLIENT_HOUSEHOLD_DISMISS_ERROR, 'CLIENTS_REQUEST_UPDATE_CLIENT_HOUSEHOLD_DISMISS_ERROR', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/constants.js');
+  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_UPDATE_CLIENT_HOUSEHOLD_DISMISS_ERROR, 'CLIENTS_REQUEST_UPDATE_CLIENT_HOUSEHOLD_DISMISS_ERROR', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_CLIENT_RECORDS_BEGIN, 'CLIENTS_REQUEST_CLIENT_RECORDS_BEGIN', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/constants.js');
+  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_CLIENT_RECORDS_BEGIN, 'CLIENTS_REQUEST_CLIENT_RECORDS_BEGIN', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_CLIENT_RECORDS_SUCCESS, 'CLIENTS_REQUEST_CLIENT_RECORDS_SUCCESS', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/constants.js');
+  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_CLIENT_RECORDS_SUCCESS, 'CLIENTS_REQUEST_CLIENT_RECORDS_SUCCESS', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_CLIENT_RECORDS_FAILURE, 'CLIENTS_REQUEST_CLIENT_RECORDS_FAILURE', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/constants.js');
+  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_CLIENT_RECORDS_FAILURE, 'CLIENTS_REQUEST_CLIENT_RECORDS_FAILURE', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_CLIENT_RECORDS_DISMISS_ERROR, 'CLIENTS_REQUEST_CLIENT_RECORDS_DISMISS_ERROR', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/constants.js');
+  __REACT_HOT_LOADER__.register(CLIENTS_REQUEST_CLIENT_RECORDS_DISMISS_ERROR, 'CLIENTS_REQUEST_CLIENT_RECORDS_DISMISS_ERROR', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/constants.js');
 }();
 
 ;
@@ -12535,49 +12535,49 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(GRANTS_REQUEST_SEARCH_BEGIN, 'GRANTS_REQUEST_SEARCH_BEGIN', '/home/nathan/Code/granttracker-web/app/src/features/grants/redux/constants.js');
+  __REACT_HOT_LOADER__.register(GRANTS_REQUEST_SEARCH_BEGIN, 'GRANTS_REQUEST_SEARCH_BEGIN', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(GRANTS_REQUEST_SEARCH_SUCCESS, 'GRANTS_REQUEST_SEARCH_SUCCESS', '/home/nathan/Code/granttracker-web/app/src/features/grants/redux/constants.js');
+  __REACT_HOT_LOADER__.register(GRANTS_REQUEST_SEARCH_SUCCESS, 'GRANTS_REQUEST_SEARCH_SUCCESS', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(GRANTS_REQUEST_SEARCH_FAILURE, 'GRANTS_REQUEST_SEARCH_FAILURE', '/home/nathan/Code/granttracker-web/app/src/features/grants/redux/constants.js');
+  __REACT_HOT_LOADER__.register(GRANTS_REQUEST_SEARCH_FAILURE, 'GRANTS_REQUEST_SEARCH_FAILURE', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(GRANTS_REQUEST_SEARCH_DISMISS_ERROR, 'GRANTS_REQUEST_SEARCH_DISMISS_ERROR', '/home/nathan/Code/granttracker-web/app/src/features/grants/redux/constants.js');
+  __REACT_HOT_LOADER__.register(GRANTS_REQUEST_SEARCH_DISMISS_ERROR, 'GRANTS_REQUEST_SEARCH_DISMISS_ERROR', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(GRANTS_REQUEST_GRANT_BY_ID_BEGIN, 'GRANTS_REQUEST_GRANT_BY_ID_BEGIN', '/home/nathan/Code/granttracker-web/app/src/features/grants/redux/constants.js');
+  __REACT_HOT_LOADER__.register(GRANTS_REQUEST_GRANT_BY_ID_BEGIN, 'GRANTS_REQUEST_GRANT_BY_ID_BEGIN', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(GRANTS_REQUEST_GRANT_BY_ID_SUCCESS, 'GRANTS_REQUEST_GRANT_BY_ID_SUCCESS', '/home/nathan/Code/granttracker-web/app/src/features/grants/redux/constants.js');
+  __REACT_HOT_LOADER__.register(GRANTS_REQUEST_GRANT_BY_ID_SUCCESS, 'GRANTS_REQUEST_GRANT_BY_ID_SUCCESS', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(GRANTS_REQUEST_GRANT_BY_ID_FAILURE, 'GRANTS_REQUEST_GRANT_BY_ID_FAILURE', '/home/nathan/Code/granttracker-web/app/src/features/grants/redux/constants.js');
+  __REACT_HOT_LOADER__.register(GRANTS_REQUEST_GRANT_BY_ID_FAILURE, 'GRANTS_REQUEST_GRANT_BY_ID_FAILURE', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(GRANTS_REQUEST_GRANT_BY_ID_DISMISS_ERROR, 'GRANTS_REQUEST_GRANT_BY_ID_DISMISS_ERROR', '/home/nathan/Code/granttracker-web/app/src/features/grants/redux/constants.js');
+  __REACT_HOT_LOADER__.register(GRANTS_REQUEST_GRANT_BY_ID_DISMISS_ERROR, 'GRANTS_REQUEST_GRANT_BY_ID_DISMISS_ERROR', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(GRANTS_UPDATE_LOCAL_GRANT_INFO, 'GRANTS_UPDATE_LOCAL_GRANT_INFO', '/home/nathan/Code/granttracker-web/app/src/features/grants/redux/constants.js');
+  __REACT_HOT_LOADER__.register(GRANTS_UPDATE_LOCAL_GRANT_INFO, 'GRANTS_UPDATE_LOCAL_GRANT_INFO', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(GRANTS_CREATE_LOCAL_DEFAULT_GRANT, 'GRANTS_CREATE_LOCAL_DEFAULT_GRANT', '/home/nathan/Code/granttracker-web/app/src/features/grants/redux/constants.js');
+  __REACT_HOT_LOADER__.register(GRANTS_CREATE_LOCAL_DEFAULT_GRANT, 'GRANTS_CREATE_LOCAL_DEFAULT_GRANT', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(GRANTS_GET_GRANT_LOG_BEGIN, 'GRANTS_GET_GRANT_LOG_BEGIN', '/home/nathan/Code/granttracker-web/app/src/features/grants/redux/constants.js');
+  __REACT_HOT_LOADER__.register(GRANTS_GET_GRANT_LOG_BEGIN, 'GRANTS_GET_GRANT_LOG_BEGIN', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(GRANTS_GET_GRANT_LOG_SUCCESS, 'GRANTS_GET_GRANT_LOG_SUCCESS', '/home/nathan/Code/granttracker-web/app/src/features/grants/redux/constants.js');
+  __REACT_HOT_LOADER__.register(GRANTS_GET_GRANT_LOG_SUCCESS, 'GRANTS_GET_GRANT_LOG_SUCCESS', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(GRANTS_GET_GRANT_LOG_FAILURE, 'GRANTS_GET_GRANT_LOG_FAILURE', '/home/nathan/Code/granttracker-web/app/src/features/grants/redux/constants.js');
+  __REACT_HOT_LOADER__.register(GRANTS_GET_GRANT_LOG_FAILURE, 'GRANTS_GET_GRANT_LOG_FAILURE', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(GRANTS_GET_GRANT_LOG_DISMISS_ERROR, 'GRANTS_GET_GRANT_LOG_DISMISS_ERROR', '/home/nathan/Code/granttracker-web/app/src/features/grants/redux/constants.js');
+  __REACT_HOT_LOADER__.register(GRANTS_GET_GRANT_LOG_DISMISS_ERROR, 'GRANTS_GET_GRANT_LOG_DISMISS_ERROR', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(GRANTS_CREATE_GRANT_BEGIN, 'GRANTS_CREATE_GRANT_BEGIN', '/home/nathan/Code/granttracker-web/app/src/features/grants/redux/constants.js');
+  __REACT_HOT_LOADER__.register(GRANTS_CREATE_GRANT_BEGIN, 'GRANTS_CREATE_GRANT_BEGIN', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(GRANTS_CREATE_GRANT_SUCCESS, 'GRANTS_CREATE_GRANT_SUCCESS', '/home/nathan/Code/granttracker-web/app/src/features/grants/redux/constants.js');
+  __REACT_HOT_LOADER__.register(GRANTS_CREATE_GRANT_SUCCESS, 'GRANTS_CREATE_GRANT_SUCCESS', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(GRANTS_CREATE_GRANT_FAILURE, 'GRANTS_CREATE_GRANT_FAILURE', '/home/nathan/Code/granttracker-web/app/src/features/grants/redux/constants.js');
+  __REACT_HOT_LOADER__.register(GRANTS_CREATE_GRANT_FAILURE, 'GRANTS_CREATE_GRANT_FAILURE', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(GRANTS_CREATE_GRANT_DISMISS_ERROR, 'GRANTS_CREATE_GRANT_DISMISS_ERROR', '/home/nathan/Code/granttracker-web/app/src/features/grants/redux/constants.js');
+  __REACT_HOT_LOADER__.register(GRANTS_CREATE_GRANT_DISMISS_ERROR, 'GRANTS_CREATE_GRANT_DISMISS_ERROR', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(GRANTS_UPDATE_GRANT_BEGIN, 'GRANTS_UPDATE_GRANT_BEGIN', '/home/nathan/Code/granttracker-web/app/src/features/grants/redux/constants.js');
+  __REACT_HOT_LOADER__.register(GRANTS_UPDATE_GRANT_BEGIN, 'GRANTS_UPDATE_GRANT_BEGIN', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(GRANTS_UPDATE_GRANT_SUCCESS, 'GRANTS_UPDATE_GRANT_SUCCESS', '/home/nathan/Code/granttracker-web/app/src/features/grants/redux/constants.js');
+  __REACT_HOT_LOADER__.register(GRANTS_UPDATE_GRANT_SUCCESS, 'GRANTS_UPDATE_GRANT_SUCCESS', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(GRANTS_UPDATE_GRANT_FAILURE, 'GRANTS_UPDATE_GRANT_FAILURE', '/home/nathan/Code/granttracker-web/app/src/features/grants/redux/constants.js');
+  __REACT_HOT_LOADER__.register(GRANTS_UPDATE_GRANT_FAILURE, 'GRANTS_UPDATE_GRANT_FAILURE', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(GRANTS_UPDATE_GRANT_DISMISS_ERROR, 'GRANTS_UPDATE_GRANT_DISMISS_ERROR', '/home/nathan/Code/granttracker-web/app/src/features/grants/redux/constants.js');
+  __REACT_HOT_LOADER__.register(GRANTS_UPDATE_GRANT_DISMISS_ERROR, 'GRANTS_UPDATE_GRANT_DISMISS_ERROR', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/constants.js');
 }();
 
 ;
@@ -13759,25 +13759,25 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(MODALS_OPEN_MODAL, 'MODALS_OPEN_MODAL', '/home/nathan/Code/granttracker-web/app/src/features/modals/redux/constants.js');
+  __REACT_HOT_LOADER__.register(MODALS_OPEN_MODAL, 'MODALS_OPEN_MODAL', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/modals/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(MODALS_CLOSE_MODAL, 'MODALS_CLOSE_MODAL', '/home/nathan/Code/granttracker-web/app/src/features/modals/redux/constants.js');
+  __REACT_HOT_LOADER__.register(MODALS_CLOSE_MODAL, 'MODALS_CLOSE_MODAL', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/modals/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(MODALS_REQUEST_CURRENT_GRANTS_BEGIN, 'MODALS_REQUEST_CURRENT_GRANTS_BEGIN', '/home/nathan/Code/granttracker-web/app/src/features/modals/redux/constants.js');
+  __REACT_HOT_LOADER__.register(MODALS_REQUEST_CURRENT_GRANTS_BEGIN, 'MODALS_REQUEST_CURRENT_GRANTS_BEGIN', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/modals/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(MODALS_REQUEST_CURRENT_GRANTS_SUCCESS, 'MODALS_REQUEST_CURRENT_GRANTS_SUCCESS', '/home/nathan/Code/granttracker-web/app/src/features/modals/redux/constants.js');
+  __REACT_HOT_LOADER__.register(MODALS_REQUEST_CURRENT_GRANTS_SUCCESS, 'MODALS_REQUEST_CURRENT_GRANTS_SUCCESS', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/modals/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(MODALS_REQUEST_CURRENT_GRANTS_FAILURE, 'MODALS_REQUEST_CURRENT_GRANTS_FAILURE', '/home/nathan/Code/granttracker-web/app/src/features/modals/redux/constants.js');
+  __REACT_HOT_LOADER__.register(MODALS_REQUEST_CURRENT_GRANTS_FAILURE, 'MODALS_REQUEST_CURRENT_GRANTS_FAILURE', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/modals/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(MODALS_REQUEST_CURRENT_GRANTS_DISMISS_ERROR, 'MODALS_REQUEST_CURRENT_GRANTS_DISMISS_ERROR', '/home/nathan/Code/granttracker-web/app/src/features/modals/redux/constants.js');
+  __REACT_HOT_LOADER__.register(MODALS_REQUEST_CURRENT_GRANTS_DISMISS_ERROR, 'MODALS_REQUEST_CURRENT_GRANTS_DISMISS_ERROR', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/modals/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(MODALS_REQUEST_CREATE_TRANSACTION_BEGIN, 'MODALS_REQUEST_CREATE_TRANSACTION_BEGIN', '/home/nathan/Code/granttracker-web/app/src/features/modals/redux/constants.js');
+  __REACT_HOT_LOADER__.register(MODALS_REQUEST_CREATE_TRANSACTION_BEGIN, 'MODALS_REQUEST_CREATE_TRANSACTION_BEGIN', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/modals/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(MODALS_REQUEST_CREATE_TRANSACTION_SUCCESS, 'MODALS_REQUEST_CREATE_TRANSACTION_SUCCESS', '/home/nathan/Code/granttracker-web/app/src/features/modals/redux/constants.js');
+  __REACT_HOT_LOADER__.register(MODALS_REQUEST_CREATE_TRANSACTION_SUCCESS, 'MODALS_REQUEST_CREATE_TRANSACTION_SUCCESS', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/modals/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(MODALS_REQUEST_CREATE_TRANSACTION_FAILURE, 'MODALS_REQUEST_CREATE_TRANSACTION_FAILURE', '/home/nathan/Code/granttracker-web/app/src/features/modals/redux/constants.js');
+  __REACT_HOT_LOADER__.register(MODALS_REQUEST_CREATE_TRANSACTION_FAILURE, 'MODALS_REQUEST_CREATE_TRANSACTION_FAILURE', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/modals/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(MODALS_REQUEST_CREATE_TRANSACTION_DISMISS_ERROR, 'MODALS_REQUEST_CREATE_TRANSACTION_DISMISS_ERROR', '/home/nathan/Code/granttracker-web/app/src/features/modals/redux/constants.js');
+  __REACT_HOT_LOADER__.register(MODALS_REQUEST_CREATE_TRANSACTION_DISMISS_ERROR, 'MODALS_REQUEST_CREATE_TRANSACTION_DISMISS_ERROR', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/modals/redux/constants.js');
 }();
 
 ;
@@ -15717,13 +15717,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(FormValidator, 'FormValidator', '/home/nathan/Code/granttracker-web/app/src/features/common/FormValidator.js');
+  __REACT_HOT_LOADER__.register(FormValidator, 'FormValidator', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/common/FormValidator.js');
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/home/nathan/Code/granttracker-web/app/src/features/common/FormValidator.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/common/FormValidator.js');
 
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/home/nathan/Code/granttracker-web/app/src/features/common/FormValidator.js');
+  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/common/FormValidator.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/features/common/FormValidator.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/common/FormValidator.js');
 }();
 
 ;
@@ -18845,11 +18845,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(showAlert, 'showAlert', '/home/nathan/Code/granttracker-web/app/src/features/common/redux/showAlert.js');
+  __REACT_HOT_LOADER__.register(showAlert, 'showAlert', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/common/redux/showAlert.js');
 
-  __REACT_HOT_LOADER__.register(dismissShowAlertError, 'dismissShowAlertError', '/home/nathan/Code/granttracker-web/app/src/features/common/redux/showAlert.js');
+  __REACT_HOT_LOADER__.register(dismissShowAlertError, 'dismissShowAlertError', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/common/redux/showAlert.js');
 
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/home/nathan/Code/granttracker-web/app/src/features/common/redux/showAlert.js');
+  __REACT_HOT_LOADER__.register(reducer, 'reducer', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/common/redux/showAlert.js');
 }();
 
 ;
@@ -18968,11 +18968,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(logout, 'logout', '/home/nathan/Code/granttracker-web/app/src/features/app/redux/logout.js');
+  __REACT_HOT_LOADER__.register(logout, 'logout', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/app/redux/logout.js');
 
-  __REACT_HOT_LOADER__.register(dismissLogoutError, 'dismissLogoutError', '/home/nathan/Code/granttracker-web/app/src/features/app/redux/logout.js');
+  __REACT_HOT_LOADER__.register(dismissLogoutError, 'dismissLogoutError', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/app/redux/logout.js');
 
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/home/nathan/Code/granttracker-web/app/src/features/app/redux/logout.js');
+  __REACT_HOT_LOADER__.register(reducer, 'reducer', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/app/redux/logout.js');
 }();
 
 ;
@@ -19364,11 +19364,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(requestSearch, 'requestSearch', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/requestSearch.js');
+  __REACT_HOT_LOADER__.register(requestSearch, 'requestSearch', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/requestSearch.js');
 
-  __REACT_HOT_LOADER__.register(dismissRequestSearchError, 'dismissRequestSearchError', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/requestSearch.js');
+  __REACT_HOT_LOADER__.register(dismissRequestSearchError, 'dismissRequestSearchError', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/requestSearch.js');
 
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/requestSearch.js');
+  __REACT_HOT_LOADER__.register(reducer, 'reducer', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/requestSearch.js');
 }();
 
 ;
@@ -19495,11 +19495,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(requestClientById, 'requestClientById', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/requestClientById.js');
+  __REACT_HOT_LOADER__.register(requestClientById, 'requestClientById', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/requestClientById.js');
 
-  __REACT_HOT_LOADER__.register(dismissRequestClientByIdError, 'dismissRequestClientByIdError', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/requestClientById.js');
+  __REACT_HOT_LOADER__.register(dismissRequestClientByIdError, 'dismissRequestClientByIdError', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/requestClientById.js');
 
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/requestClientById.js');
+  __REACT_HOT_LOADER__.register(reducer, 'reducer', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/requestClientById.js');
 }();
 
 ;
@@ -19555,9 +19555,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(updateLocalClientInfo, 'updateLocalClientInfo', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/updateLocalClientInfo.js');
+  __REACT_HOT_LOADER__.register(updateLocalClientInfo, 'updateLocalClientInfo', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/updateLocalClientInfo.js');
 
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/updateLocalClientInfo.js');
+  __REACT_HOT_LOADER__.register(reducer, 'reducer', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/updateLocalClientInfo.js');
 }();
 
 ;
@@ -19627,9 +19627,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(createLocalDefaultClient, 'createLocalDefaultClient', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/createLocalDefaultClient.js');
+  __REACT_HOT_LOADER__.register(createLocalDefaultClient, 'createLocalDefaultClient', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/createLocalDefaultClient.js');
 
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/createLocalDefaultClient.js');
+  __REACT_HOT_LOADER__.register(reducer, 'reducer', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/createLocalDefaultClient.js');
 }();
 
 ;
@@ -19761,11 +19761,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(requestCodeset, 'requestCodeset', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/requestCodeset.js');
+  __REACT_HOT_LOADER__.register(requestCodeset, 'requestCodeset', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/requestCodeset.js');
 
-  __REACT_HOT_LOADER__.register(dismissRequestCodesetError, 'dismissRequestCodesetError', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/requestCodeset.js');
+  __REACT_HOT_LOADER__.register(dismissRequestCodesetError, 'dismissRequestCodesetError', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/requestCodeset.js');
 
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/requestCodeset.js');
+  __REACT_HOT_LOADER__.register(reducer, 'reducer', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/requestCodeset.js');
 }();
 
 ;
@@ -19817,9 +19817,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(resetLocalClientInfo, 'resetLocalClientInfo', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/resetLocalClientInfo.js');
+  __REACT_HOT_LOADER__.register(resetLocalClientInfo, 'resetLocalClientInfo', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/resetLocalClientInfo.js');
 
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/resetLocalClientInfo.js');
+  __REACT_HOT_LOADER__.register(reducer, 'reducer', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/resetLocalClientInfo.js');
 }();
 
 ;
@@ -19941,11 +19941,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(requestNewClient, 'requestNewClient', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/requestNewClient.js');
+  __REACT_HOT_LOADER__.register(requestNewClient, 'requestNewClient', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/requestNewClient.js');
 
-  __REACT_HOT_LOADER__.register(dismissRequestNewClientError, 'dismissRequestNewClientError', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/requestNewClient.js');
+  __REACT_HOT_LOADER__.register(dismissRequestNewClientError, 'dismissRequestNewClientError', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/requestNewClient.js');
 
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/requestNewClient.js');
+  __REACT_HOT_LOADER__.register(reducer, 'reducer', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/requestNewClient.js');
 }();
 
 ;
@@ -20067,11 +20067,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(requestUpdateClientById, 'requestUpdateClientById', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/requestUpdateClientById.js');
+  __REACT_HOT_LOADER__.register(requestUpdateClientById, 'requestUpdateClientById', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/requestUpdateClientById.js');
 
-  __REACT_HOT_LOADER__.register(dismissRequestUpdateClientByIdError, 'dismissRequestUpdateClientByIdError', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/requestUpdateClientById.js');
+  __REACT_HOT_LOADER__.register(dismissRequestUpdateClientByIdError, 'dismissRequestUpdateClientByIdError', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/requestUpdateClientById.js');
 
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/requestUpdateClientById.js');
+  __REACT_HOT_LOADER__.register(reducer, 'reducer', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/requestUpdateClientById.js');
 }();
 
 ;
@@ -20126,9 +20126,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(updateLocalHouseholdAddClient, 'updateLocalHouseholdAddClient', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/updateLocalHouseholdAddClient.js');
+  __REACT_HOT_LOADER__.register(updateLocalHouseholdAddClient, 'updateLocalHouseholdAddClient', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/updateLocalHouseholdAddClient.js');
 
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/updateLocalHouseholdAddClient.js');
+  __REACT_HOT_LOADER__.register(reducer, 'reducer', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/updateLocalHouseholdAddClient.js');
 }();
 
 ;
@@ -20252,11 +20252,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(requestClientHousehold, 'requestClientHousehold', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/requestClientHousehold.js');
+  __REACT_HOT_LOADER__.register(requestClientHousehold, 'requestClientHousehold', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/requestClientHousehold.js');
 
-  __REACT_HOT_LOADER__.register(dismissRequestClientHouseholdError, 'dismissRequestClientHouseholdError', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/requestClientHousehold.js');
+  __REACT_HOT_LOADER__.register(dismissRequestClientHouseholdError, 'dismissRequestClientHouseholdError', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/requestClientHousehold.js');
 
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/requestClientHousehold.js');
+  __REACT_HOT_LOADER__.register(reducer, 'reducer', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/requestClientHousehold.js');
 }();
 
 ;
@@ -20317,9 +20317,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(updateLocalHouseholdRemoveClient, 'updateLocalHouseholdRemoveClient', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/updateLocalHouseholdRemoveClient.js');
+  __REACT_HOT_LOADER__.register(updateLocalHouseholdRemoveClient, 'updateLocalHouseholdRemoveClient', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/updateLocalHouseholdRemoveClient.js');
 
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/updateLocalHouseholdRemoveClient.js');
+  __REACT_HOT_LOADER__.register(reducer, 'reducer', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/updateLocalHouseholdRemoveClient.js');
 }();
 
 ;
@@ -20441,11 +20441,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(requestUpdateClientHousehold, 'requestUpdateClientHousehold', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/requestUpdateClientHousehold.js');
+  __REACT_HOT_LOADER__.register(requestUpdateClientHousehold, 'requestUpdateClientHousehold', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/requestUpdateClientHousehold.js');
 
-  __REACT_HOT_LOADER__.register(dismissRequestUpdateClientHouseholdError, 'dismissRequestUpdateClientHouseholdError', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/requestUpdateClientHousehold.js');
+  __REACT_HOT_LOADER__.register(dismissRequestUpdateClientHouseholdError, 'dismissRequestUpdateClientHouseholdError', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/requestUpdateClientHousehold.js');
 
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/requestUpdateClientHousehold.js');
+  __REACT_HOT_LOADER__.register(reducer, 'reducer', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/requestUpdateClientHousehold.js');
 }();
 
 ;
@@ -20494,7 +20494,7 @@ function requestClientRecords() {
       // doRequest is a placeholder Promise. You should replace it with your own logic.
       // See the real-word example at:  https://github.com/supnate/rekit/blob/master/src/features/home/redux/fetchRedditReactjsList.js
       // args.error here is only for test coverage purpose.
-      var doRequest = _axios2.default.get(window.app_config.api_url + '/client/' + args.client_id + '/records');
+      var doRequest = _axios2.default.get(window.app_config.api_url + '/client/' + args.client_id + '/records', { withCredentials: true });
       doRequest.then(function (res) {
         dispatch({
           type: _constants.CLIENTS_REQUEST_CLIENT_RECORDS_SUCCESS,
@@ -20566,11 +20566,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(requestClientRecords, 'requestClientRecords', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/requestClientRecords.js');
+  __REACT_HOT_LOADER__.register(requestClientRecords, 'requestClientRecords', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/requestClientRecords.js');
 
-  __REACT_HOT_LOADER__.register(dismissRequestClientRecordsError, 'dismissRequestClientRecordsError', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/requestClientRecords.js');
+  __REACT_HOT_LOADER__.register(dismissRequestClientRecordsError, 'dismissRequestClientRecordsError', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/requestClientRecords.js');
 
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/requestClientRecords.js');
+  __REACT_HOT_LOADER__.register(reducer, 'reducer', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/requestClientRecords.js');
 }();
 
 ;
@@ -20694,11 +20694,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(requestSearch, 'requestSearch', '/home/nathan/Code/granttracker-web/app/src/features/grants/redux/requestSearch.js');
+  __REACT_HOT_LOADER__.register(requestSearch, 'requestSearch', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/requestSearch.js');
 
-  __REACT_HOT_LOADER__.register(dismissRequestSearchError, 'dismissRequestSearchError', '/home/nathan/Code/granttracker-web/app/src/features/grants/redux/requestSearch.js');
+  __REACT_HOT_LOADER__.register(dismissRequestSearchError, 'dismissRequestSearchError', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/requestSearch.js');
 
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/home/nathan/Code/granttracker-web/app/src/features/grants/redux/requestSearch.js');
+  __REACT_HOT_LOADER__.register(reducer, 'reducer', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/requestSearch.js');
 }();
 
 ;
@@ -20822,11 +20822,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(requestGrantById, 'requestGrantById', '/home/nathan/Code/granttracker-web/app/src/features/grants/redux/requestGrantById.js');
+  __REACT_HOT_LOADER__.register(requestGrantById, 'requestGrantById', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/requestGrantById.js');
 
-  __REACT_HOT_LOADER__.register(dismissRequestGrantByIdError, 'dismissRequestGrantByIdError', '/home/nathan/Code/granttracker-web/app/src/features/grants/redux/requestGrantById.js');
+  __REACT_HOT_LOADER__.register(dismissRequestGrantByIdError, 'dismissRequestGrantByIdError', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/requestGrantById.js');
 
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/home/nathan/Code/granttracker-web/app/src/features/grants/redux/requestGrantById.js');
+  __REACT_HOT_LOADER__.register(reducer, 'reducer', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/requestGrantById.js');
 }();
 
 ;
@@ -20882,9 +20882,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(updateLocalGrantInfo, 'updateLocalGrantInfo', '/home/nathan/Code/granttracker-web/app/src/features/grants/redux/updateLocalGrantInfo.js');
+  __REACT_HOT_LOADER__.register(updateLocalGrantInfo, 'updateLocalGrantInfo', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/updateLocalGrantInfo.js');
 
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/home/nathan/Code/granttracker-web/app/src/features/grants/redux/updateLocalGrantInfo.js');
+  __REACT_HOT_LOADER__.register(reducer, 'reducer', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/updateLocalGrantInfo.js');
 }();
 
 ;
@@ -20933,9 +20933,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(createLocalDefaultGrant, 'createLocalDefaultGrant', '/home/nathan/Code/granttracker-web/app/src/features/grants/redux/createLocalDefaultGrant.js');
+  __REACT_HOT_LOADER__.register(createLocalDefaultGrant, 'createLocalDefaultGrant', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/createLocalDefaultGrant.js');
 
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/home/nathan/Code/granttracker-web/app/src/features/grants/redux/createLocalDefaultGrant.js');
+  __REACT_HOT_LOADER__.register(reducer, 'reducer', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/createLocalDefaultGrant.js');
 }();
 
 ;
@@ -21058,11 +21058,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(getGrantLog, 'getGrantLog', '/home/nathan/Code/granttracker-web/app/src/features/grants/redux/getGrantLog.js');
+  __REACT_HOT_LOADER__.register(getGrantLog, 'getGrantLog', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/getGrantLog.js');
 
-  __REACT_HOT_LOADER__.register(dismissGetGrantLogError, 'dismissGetGrantLogError', '/home/nathan/Code/granttracker-web/app/src/features/grants/redux/getGrantLog.js');
+  __REACT_HOT_LOADER__.register(dismissGetGrantLogError, 'dismissGetGrantLogError', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/getGrantLog.js');
 
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/home/nathan/Code/granttracker-web/app/src/features/grants/redux/getGrantLog.js');
+  __REACT_HOT_LOADER__.register(reducer, 'reducer', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/getGrantLog.js');
 }();
 
 ;
@@ -21184,11 +21184,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(createGrant, 'createGrant', '/home/nathan/Code/granttracker-web/app/src/features/grants/redux/createGrant.js');
+  __REACT_HOT_LOADER__.register(createGrant, 'createGrant', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/createGrant.js');
 
-  __REACT_HOT_LOADER__.register(dismissCreateGrantError, 'dismissCreateGrantError', '/home/nathan/Code/granttracker-web/app/src/features/grants/redux/createGrant.js');
+  __REACT_HOT_LOADER__.register(dismissCreateGrantError, 'dismissCreateGrantError', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/createGrant.js');
 
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/home/nathan/Code/granttracker-web/app/src/features/grants/redux/createGrant.js');
+  __REACT_HOT_LOADER__.register(reducer, 'reducer', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/createGrant.js');
 }();
 
 ;
@@ -21311,11 +21311,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(updateGrant, 'updateGrant', '/home/nathan/Code/granttracker-web/app/src/features/grants/redux/updateGrant.js');
+  __REACT_HOT_LOADER__.register(updateGrant, 'updateGrant', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/updateGrant.js');
 
-  __REACT_HOT_LOADER__.register(dismissUpdateGrantError, 'dismissUpdateGrantError', '/home/nathan/Code/granttracker-web/app/src/features/grants/redux/updateGrant.js');
+  __REACT_HOT_LOADER__.register(dismissUpdateGrantError, 'dismissUpdateGrantError', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/updateGrant.js');
 
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/home/nathan/Code/granttracker-web/app/src/features/grants/redux/updateGrant.js');
+  __REACT_HOT_LOADER__.register(reducer, 'reducer', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/updateGrant.js');
 }();
 
 ;
@@ -21370,9 +21370,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(openModal, 'openModal', '/home/nathan/Code/granttracker-web/app/src/features/modals/redux/openModal.js');
+  __REACT_HOT_LOADER__.register(openModal, 'openModal', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/modals/redux/openModal.js');
 
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/home/nathan/Code/granttracker-web/app/src/features/modals/redux/openModal.js');
+  __REACT_HOT_LOADER__.register(reducer, 'reducer', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/modals/redux/openModal.js');
 }();
 
 ;
@@ -21422,9 +21422,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(closeModal, 'closeModal', '/home/nathan/Code/granttracker-web/app/src/features/modals/redux/closeModal.js');
+  __REACT_HOT_LOADER__.register(closeModal, 'closeModal', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/modals/redux/closeModal.js');
 
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/home/nathan/Code/granttracker-web/app/src/features/modals/redux/closeModal.js');
+  __REACT_HOT_LOADER__.register(reducer, 'reducer', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/modals/redux/closeModal.js');
 }();
 
 ;
@@ -21545,11 +21545,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(requestCurrentGrants, 'requestCurrentGrants', '/home/nathan/Code/granttracker-web/app/src/features/modals/redux/requestCurrentGrants.js');
+  __REACT_HOT_LOADER__.register(requestCurrentGrants, 'requestCurrentGrants', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/modals/redux/requestCurrentGrants.js');
 
-  __REACT_HOT_LOADER__.register(dismissRequestCurrentGrantsError, 'dismissRequestCurrentGrantsError', '/home/nathan/Code/granttracker-web/app/src/features/modals/redux/requestCurrentGrants.js');
+  __REACT_HOT_LOADER__.register(dismissRequestCurrentGrantsError, 'dismissRequestCurrentGrantsError', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/modals/redux/requestCurrentGrants.js');
 
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/home/nathan/Code/granttracker-web/app/src/features/modals/redux/requestCurrentGrants.js');
+  __REACT_HOT_LOADER__.register(reducer, 'reducer', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/modals/redux/requestCurrentGrants.js');
 }();
 
 ;
@@ -21668,11 +21668,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(requestCreateTransaction, 'requestCreateTransaction', '/home/nathan/Code/granttracker-web/app/src/features/modals/redux/requestCreateTransaction.js');
+  __REACT_HOT_LOADER__.register(requestCreateTransaction, 'requestCreateTransaction', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/modals/redux/requestCreateTransaction.js');
 
-  __REACT_HOT_LOADER__.register(dismissRequestCreateTransactionError, 'dismissRequestCreateTransactionError', '/home/nathan/Code/granttracker-web/app/src/features/modals/redux/requestCreateTransaction.js');
+  __REACT_HOT_LOADER__.register(dismissRequestCreateTransactionError, 'dismissRequestCreateTransactionError', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/modals/redux/requestCreateTransaction.js');
 
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/home/nathan/Code/granttracker-web/app/src/features/modals/redux/requestCreateTransaction.js');
+  __REACT_HOT_LOADER__.register(reducer, 'reducer', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/modals/redux/requestCreateTransaction.js');
 }();
 
 ;
@@ -21793,11 +21793,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(login, 'login', '/home/nathan/Code/granttracker-web/app/src/features/login/redux/login.js');
+  __REACT_HOT_LOADER__.register(login, 'login', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/login/redux/login.js');
 
-  __REACT_HOT_LOADER__.register(dismissLoginError, 'dismissLoginError', '/home/nathan/Code/granttracker-web/app/src/features/login/redux/login.js');
+  __REACT_HOT_LOADER__.register(dismissLoginError, 'dismissLoginError', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/login/redux/login.js');
 
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/home/nathan/Code/granttracker-web/app/src/features/login/redux/login.js');
+  __REACT_HOT_LOADER__.register(reducer, 'reducer', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/login/redux/login.js');
 }();
 
 ;
@@ -21921,11 +21921,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(requestGrantReport, 'requestGrantReport', '/home/nathan/Code/granttracker-web/app/src/features/reports/redux/requestGrantReport.js');
+  __REACT_HOT_LOADER__.register(requestGrantReport, 'requestGrantReport', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/reports/redux/requestGrantReport.js');
 
-  __REACT_HOT_LOADER__.register(dismissRequestGrantReportError, 'dismissRequestGrantReportError', '/home/nathan/Code/granttracker-web/app/src/features/reports/redux/requestGrantReport.js');
+  __REACT_HOT_LOADER__.register(dismissRequestGrantReportError, 'dismissRequestGrantReportError', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/reports/redux/requestGrantReport.js');
 
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/home/nathan/Code/granttracker-web/app/src/features/reports/redux/requestGrantReport.js');
+  __REACT_HOT_LOADER__.register(reducer, 'reducer', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/reports/redux/requestGrantReport.js');
 }();
 
 ;
@@ -21955,21 +21955,21 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(REPORTS_REQUEST_GRANT_REPORT_BEGIN, 'REPORTS_REQUEST_GRANT_REPORT_BEGIN', '/home/nathan/Code/granttracker-web/app/src/features/reports/redux/constants.js');
+  __REACT_HOT_LOADER__.register(REPORTS_REQUEST_GRANT_REPORT_BEGIN, 'REPORTS_REQUEST_GRANT_REPORT_BEGIN', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/reports/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(REPORTS_REQUEST_GRANT_REPORT_SUCCESS, 'REPORTS_REQUEST_GRANT_REPORT_SUCCESS', '/home/nathan/Code/granttracker-web/app/src/features/reports/redux/constants.js');
+  __REACT_HOT_LOADER__.register(REPORTS_REQUEST_GRANT_REPORT_SUCCESS, 'REPORTS_REQUEST_GRANT_REPORT_SUCCESS', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/reports/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(REPORTS_REQUEST_GRANT_REPORT_FAILURE, 'REPORTS_REQUEST_GRANT_REPORT_FAILURE', '/home/nathan/Code/granttracker-web/app/src/features/reports/redux/constants.js');
+  __REACT_HOT_LOADER__.register(REPORTS_REQUEST_GRANT_REPORT_FAILURE, 'REPORTS_REQUEST_GRANT_REPORT_FAILURE', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/reports/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(REPORTS_REQUEST_GRANT_REPORT_DISMISS_ERROR, 'REPORTS_REQUEST_GRANT_REPORT_DISMISS_ERROR', '/home/nathan/Code/granttracker-web/app/src/features/reports/redux/constants.js');
+  __REACT_HOT_LOADER__.register(REPORTS_REQUEST_GRANT_REPORT_DISMISS_ERROR, 'REPORTS_REQUEST_GRANT_REPORT_DISMISS_ERROR', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/reports/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(REPORTS_REQUEST_CODESET_BEGIN, 'REPORTS_REQUEST_CODESET_BEGIN', '/home/nathan/Code/granttracker-web/app/src/features/reports/redux/constants.js');
+  __REACT_HOT_LOADER__.register(REPORTS_REQUEST_CODESET_BEGIN, 'REPORTS_REQUEST_CODESET_BEGIN', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/reports/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(REPORTS_REQUEST_CODESET_SUCCESS, 'REPORTS_REQUEST_CODESET_SUCCESS', '/home/nathan/Code/granttracker-web/app/src/features/reports/redux/constants.js');
+  __REACT_HOT_LOADER__.register(REPORTS_REQUEST_CODESET_SUCCESS, 'REPORTS_REQUEST_CODESET_SUCCESS', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/reports/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(REPORTS_REQUEST_CODESET_FAILURE, 'REPORTS_REQUEST_CODESET_FAILURE', '/home/nathan/Code/granttracker-web/app/src/features/reports/redux/constants.js');
+  __REACT_HOT_LOADER__.register(REPORTS_REQUEST_CODESET_FAILURE, 'REPORTS_REQUEST_CODESET_FAILURE', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/reports/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(REPORTS_REQUEST_CODESET_DISMISS_ERROR, 'REPORTS_REQUEST_CODESET_DISMISS_ERROR', '/home/nathan/Code/granttracker-web/app/src/features/reports/redux/constants.js');
+  __REACT_HOT_LOADER__.register(REPORTS_REQUEST_CODESET_DISMISS_ERROR, 'REPORTS_REQUEST_CODESET_DISMISS_ERROR', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/reports/redux/constants.js');
 }();
 
 ;
@@ -22101,11 +22101,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(requestCodeset, 'requestCodeset', '/home/nathan/Code/granttracker-web/app/src/features/reports/redux/requestCodeset.js');
+  __REACT_HOT_LOADER__.register(requestCodeset, 'requestCodeset', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/reports/redux/requestCodeset.js');
 
-  __REACT_HOT_LOADER__.register(dismissRequestCodesetError, 'dismissRequestCodesetError', '/home/nathan/Code/granttracker-web/app/src/features/reports/redux/requestCodeset.js');
+  __REACT_HOT_LOADER__.register(dismissRequestCodesetError, 'dismissRequestCodesetError', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/reports/redux/requestCodeset.js');
 
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/home/nathan/Code/granttracker-web/app/src/features/reports/redux/requestCodeset.js');
+  __REACT_HOT_LOADER__.register(reducer, 'reducer', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/reports/redux/requestCodeset.js');
 }();
 
 ;
@@ -34668,13 +34668,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ErrorAlert, 'ErrorAlert', '/home/nathan/Code/granttracker-web/app/src/features/common/ErrorAlert.js');
+  __REACT_HOT_LOADER__.register(ErrorAlert, 'ErrorAlert', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/common/ErrorAlert.js');
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/home/nathan/Code/granttracker-web/app/src/features/common/ErrorAlert.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/common/ErrorAlert.js');
 
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/home/nathan/Code/granttracker-web/app/src/features/common/ErrorAlert.js');
+  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/common/ErrorAlert.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/features/common/ErrorAlert.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/common/ErrorAlert.js');
 }();
 
 ;
@@ -35330,13 +35330,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(AssistanceWizardModal, 'AssistanceWizardModal', '/home/nathan/Code/granttracker-web/app/src/features/modals/AssistanceWizardModal.js');
+  __REACT_HOT_LOADER__.register(AssistanceWizardModal, 'AssistanceWizardModal', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/modals/AssistanceWizardModal.js');
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/home/nathan/Code/granttracker-web/app/src/features/modals/AssistanceWizardModal.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/modals/AssistanceWizardModal.js');
 
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/home/nathan/Code/granttracker-web/app/src/features/modals/AssistanceWizardModal.js');
+  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/modals/AssistanceWizardModal.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/features/modals/AssistanceWizardModal.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/modals/AssistanceWizardModal.js');
 }();
 
 ;
@@ -41838,9 +41838,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(store, 'store', '/home/nathan/Code/granttracker-web/app/src/index.js');
+  __REACT_HOT_LOADER__.register(store, 'store', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/index.js');
 
-  __REACT_HOT_LOADER__.register(renderApp, 'renderApp', '/home/nathan/Code/granttracker-web/app/src/index.js');
+  __REACT_HOT_LOADER__.register(renderApp, 'renderApp', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/index.js');
 }();
 
 ;
@@ -42542,13 +42542,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(router, 'router', '/home/nathan/Code/granttracker-web/app/src/common/configStore.js');
+  __REACT_HOT_LOADER__.register(router, 'router', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/common/configStore.js');
 
-  __REACT_HOT_LOADER__.register(middlewares, 'middlewares', '/home/nathan/Code/granttracker-web/app/src/common/configStore.js');
+  __REACT_HOT_LOADER__.register(middlewares, 'middlewares', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/common/configStore.js');
 
-  __REACT_HOT_LOADER__.register(devToolsExtension, 'devToolsExtension', '/home/nathan/Code/granttracker-web/app/src/common/configStore.js');
+  __REACT_HOT_LOADER__.register(devToolsExtension, 'devToolsExtension', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/common/configStore.js');
 
-  __REACT_HOT_LOADER__.register(configureStore, 'configureStore', '/home/nathan/Code/granttracker-web/app/src/common/configStore.js');
+  __REACT_HOT_LOADER__.register(configureStore, 'configureStore', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/common/configStore.js');
 }();
 
 ;
@@ -44762,9 +44762,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(reducerMap, 'reducerMap', '/home/nathan/Code/granttracker-web/app/src/common/rootReducer.js');
+  __REACT_HOT_LOADER__.register(reducerMap, 'reducerMap', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/common/rootReducer.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/common/rootReducer.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/common/rootReducer.js');
 }();
 
 ;
@@ -44812,9 +44812,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(reducers, 'reducers', '/home/nathan/Code/granttracker-web/app/src/features/home/redux/reducer.js');
+  __REACT_HOT_LOADER__.register(reducers, 'reducers', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/home/redux/reducer.js');
 
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/home/nathan/Code/granttracker-web/app/src/features/home/redux/reducer.js');
+  __REACT_HOT_LOADER__.register(reducer, 'reducer', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/home/redux/reducer.js');
 }();
 
 ;
@@ -44840,9 +44840,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(initialState, "initialState", "/home/nathan/Code/granttracker-web/app/src/features/home/redux/initialState.js");
+  __REACT_HOT_LOADER__.register(initialState, "initialState", "C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/home/redux/initialState.js");
 
-  __REACT_HOT_LOADER__.register(_default, "default", "/home/nathan/Code/granttracker-web/app/src/features/home/redux/initialState.js");
+  __REACT_HOT_LOADER__.register(_default, "default", "C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/home/redux/initialState.js");
 }();
 
 ;
@@ -44900,9 +44900,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(reducers, 'reducers', '/home/nathan/Code/granttracker-web/app/src/features/common/redux/reducer.js');
+  __REACT_HOT_LOADER__.register(reducers, 'reducers', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/common/redux/reducer.js');
 
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/home/nathan/Code/granttracker-web/app/src/features/common/redux/reducer.js');
+  __REACT_HOT_LOADER__.register(reducer, 'reducer', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/common/redux/reducer.js');
 }();
 
 ;
@@ -44939,9 +44939,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(initialState, "initialState", "/home/nathan/Code/granttracker-web/app/src/features/common/redux/initialState.js");
+  __REACT_HOT_LOADER__.register(initialState, "initialState", "C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/common/redux/initialState.js");
 
-  __REACT_HOT_LOADER__.register(_default, "default", "/home/nathan/Code/granttracker-web/app/src/features/common/redux/initialState.js");
+  __REACT_HOT_LOADER__.register(_default, "default", "C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/common/redux/initialState.js");
 }();
 
 ;
@@ -44967,13 +44967,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(COMMON_SHOW_ALERT_BEGIN, 'COMMON_SHOW_ALERT_BEGIN', '/home/nathan/Code/granttracker-web/app/src/features/common/redux/constants.js');
+  __REACT_HOT_LOADER__.register(COMMON_SHOW_ALERT_BEGIN, 'COMMON_SHOW_ALERT_BEGIN', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/common/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(COMMON_SHOW_ALERT_SUCCESS, 'COMMON_SHOW_ALERT_SUCCESS', '/home/nathan/Code/granttracker-web/app/src/features/common/redux/constants.js');
+  __REACT_HOT_LOADER__.register(COMMON_SHOW_ALERT_SUCCESS, 'COMMON_SHOW_ALERT_SUCCESS', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/common/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(COMMON_SHOW_ALERT_FAILURE, 'COMMON_SHOW_ALERT_FAILURE', '/home/nathan/Code/granttracker-web/app/src/features/common/redux/constants.js');
+  __REACT_HOT_LOADER__.register(COMMON_SHOW_ALERT_FAILURE, 'COMMON_SHOW_ALERT_FAILURE', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/common/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(COMMON_SHOW_ALERT_DISMISS_ERROR, 'COMMON_SHOW_ALERT_DISMISS_ERROR', '/home/nathan/Code/granttracker-web/app/src/features/common/redux/constants.js');
+  __REACT_HOT_LOADER__.register(COMMON_SHOW_ALERT_DISMISS_ERROR, 'COMMON_SHOW_ALERT_DISMISS_ERROR', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/common/redux/constants.js');
 }();
 
 ;
@@ -45030,9 +45030,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(reducers, 'reducers', '/home/nathan/Code/granttracker-web/app/src/features/app/redux/reducer.js');
+  __REACT_HOT_LOADER__.register(reducers, 'reducers', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/app/redux/reducer.js');
 
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/home/nathan/Code/granttracker-web/app/src/features/app/redux/reducer.js');
+  __REACT_HOT_LOADER__.register(reducer, 'reducer', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/app/redux/reducer.js');
 }();
 
 ;
@@ -45068,9 +45068,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(initialState, "initialState", "/home/nathan/Code/granttracker-web/app/src/features/app/redux/initialState.js");
+  __REACT_HOT_LOADER__.register(initialState, "initialState", "C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/app/redux/initialState.js");
 
-  __REACT_HOT_LOADER__.register(_default, "default", "/home/nathan/Code/granttracker-web/app/src/features/app/redux/initialState.js");
+  __REACT_HOT_LOADER__.register(_default, "default", "C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/app/redux/initialState.js");
 }();
 
 ;
@@ -45096,13 +45096,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(APP_LOGOUT_BEGIN, 'APP_LOGOUT_BEGIN', '/home/nathan/Code/granttracker-web/app/src/features/app/redux/constants.js');
+  __REACT_HOT_LOADER__.register(APP_LOGOUT_BEGIN, 'APP_LOGOUT_BEGIN', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/app/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(APP_LOGOUT_SUCCESS, 'APP_LOGOUT_SUCCESS', '/home/nathan/Code/granttracker-web/app/src/features/app/redux/constants.js');
+  __REACT_HOT_LOADER__.register(APP_LOGOUT_SUCCESS, 'APP_LOGOUT_SUCCESS', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/app/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(APP_LOGOUT_FAILURE, 'APP_LOGOUT_FAILURE', '/home/nathan/Code/granttracker-web/app/src/features/app/redux/constants.js');
+  __REACT_HOT_LOADER__.register(APP_LOGOUT_FAILURE, 'APP_LOGOUT_FAILURE', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/app/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(APP_LOGOUT_DISMISS_ERROR, 'APP_LOGOUT_DISMISS_ERROR', '/home/nathan/Code/granttracker-web/app/src/features/app/redux/constants.js');
+  __REACT_HOT_LOADER__.register(APP_LOGOUT_DISMISS_ERROR, 'APP_LOGOUT_DISMISS_ERROR', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/app/redux/constants.js');
 }();
 
 ;
@@ -46257,9 +46257,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(reducers, 'reducers', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/reducer.js');
+  __REACT_HOT_LOADER__.register(reducers, 'reducers', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/reducer.js');
 
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/home/nathan/Code/granttracker-web/app/src/features/clients/redux/reducer.js');
+  __REACT_HOT_LOADER__.register(reducer, 'reducer', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/reducer.js');
 }();
 
 ;
@@ -46326,9 +46326,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(initialState, "initialState", "/home/nathan/Code/granttracker-web/app/src/features/clients/redux/initialState.js");
+  __REACT_HOT_LOADER__.register(initialState, "initialState", "C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/initialState.js");
 
-  __REACT_HOT_LOADER__.register(_default, "default", "/home/nathan/Code/granttracker-web/app/src/features/clients/redux/initialState.js");
+  __REACT_HOT_LOADER__.register(_default, "default", "C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/redux/initialState.js");
 }();
 
 ;
@@ -46397,9 +46397,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(reducers, 'reducers', '/home/nathan/Code/granttracker-web/app/src/features/grants/redux/reducer.js');
+  __REACT_HOT_LOADER__.register(reducers, 'reducers', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/reducer.js');
 
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/home/nathan/Code/granttracker-web/app/src/features/grants/redux/reducer.js');
+  __REACT_HOT_LOADER__.register(reducer, 'reducer', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/reducer.js');
 }();
 
 ;
@@ -46446,9 +46446,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(initialState, "initialState", "/home/nathan/Code/granttracker-web/app/src/features/grants/redux/initialState.js");
+  __REACT_HOT_LOADER__.register(initialState, "initialState", "C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/initialState.js");
 
-  __REACT_HOT_LOADER__.register(_default, "default", "/home/nathan/Code/granttracker-web/app/src/features/grants/redux/initialState.js");
+  __REACT_HOT_LOADER__.register(_default, "default", "C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/redux/initialState.js");
 }();
 
 ;
@@ -46509,9 +46509,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(reducers, 'reducers', '/home/nathan/Code/granttracker-web/app/src/features/modals/redux/reducer.js');
+  __REACT_HOT_LOADER__.register(reducers, 'reducers', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/modals/redux/reducer.js');
 
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/home/nathan/Code/granttracker-web/app/src/features/modals/redux/reducer.js');
+  __REACT_HOT_LOADER__.register(reducer, 'reducer', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/modals/redux/reducer.js');
 }();
 
 ;
@@ -46553,9 +46553,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(initialState, "initialState", "/home/nathan/Code/granttracker-web/app/src/features/modals/redux/initialState.js");
+  __REACT_HOT_LOADER__.register(initialState, "initialState", "C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/modals/redux/initialState.js");
 
-  __REACT_HOT_LOADER__.register(_default, "default", "/home/nathan/Code/granttracker-web/app/src/features/modals/redux/initialState.js");
+  __REACT_HOT_LOADER__.register(_default, "default", "C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/modals/redux/initialState.js");
 }();
 
 ;
@@ -46612,9 +46612,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(reducers, 'reducers', '/home/nathan/Code/granttracker-web/app/src/features/login/redux/reducer.js');
+  __REACT_HOT_LOADER__.register(reducers, 'reducers', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/login/redux/reducer.js');
 
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/home/nathan/Code/granttracker-web/app/src/features/login/redux/reducer.js');
+  __REACT_HOT_LOADER__.register(reducer, 'reducer', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/login/redux/reducer.js');
 }();
 
 ;
@@ -46650,9 +46650,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(initialState, "initialState", "/home/nathan/Code/granttracker-web/app/src/features/login/redux/initialState.js");
+  __REACT_HOT_LOADER__.register(initialState, "initialState", "C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/login/redux/initialState.js");
 
-  __REACT_HOT_LOADER__.register(_default, "default", "/home/nathan/Code/granttracker-web/app/src/features/login/redux/initialState.js");
+  __REACT_HOT_LOADER__.register(_default, "default", "C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/login/redux/initialState.js");
 }();
 
 ;
@@ -46678,13 +46678,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(LOGIN_LOGIN_BEGIN, 'LOGIN_LOGIN_BEGIN', '/home/nathan/Code/granttracker-web/app/src/features/login/redux/constants.js');
+  __REACT_HOT_LOADER__.register(LOGIN_LOGIN_BEGIN, 'LOGIN_LOGIN_BEGIN', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/login/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(LOGIN_LOGIN_SUCCESS, 'LOGIN_LOGIN_SUCCESS', '/home/nathan/Code/granttracker-web/app/src/features/login/redux/constants.js');
+  __REACT_HOT_LOADER__.register(LOGIN_LOGIN_SUCCESS, 'LOGIN_LOGIN_SUCCESS', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/login/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(LOGIN_LOGIN_FAILURE, 'LOGIN_LOGIN_FAILURE', '/home/nathan/Code/granttracker-web/app/src/features/login/redux/constants.js');
+  __REACT_HOT_LOADER__.register(LOGIN_LOGIN_FAILURE, 'LOGIN_LOGIN_FAILURE', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/login/redux/constants.js');
 
-  __REACT_HOT_LOADER__.register(LOGIN_LOGIN_DISMISS_ERROR, 'LOGIN_LOGIN_DISMISS_ERROR', '/home/nathan/Code/granttracker-web/app/src/features/login/redux/constants.js');
+  __REACT_HOT_LOADER__.register(LOGIN_LOGIN_DISMISS_ERROR, 'LOGIN_LOGIN_DISMISS_ERROR', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/login/redux/constants.js');
 }();
 
 ;
@@ -46741,9 +46741,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(reducers, 'reducers', '/home/nathan/Code/granttracker-web/app/src/features/reports/redux/reducer.js');
+  __REACT_HOT_LOADER__.register(reducers, 'reducers', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/reports/redux/reducer.js');
 
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/home/nathan/Code/granttracker-web/app/src/features/reports/redux/reducer.js');
+  __REACT_HOT_LOADER__.register(reducer, 'reducer', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/reports/redux/reducer.js');
 }();
 
 ;
@@ -46793,9 +46793,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(initialState, "initialState", "/home/nathan/Code/granttracker-web/app/src/features/reports/redux/initialState.js");
+  __REACT_HOT_LOADER__.register(initialState, "initialState", "C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/reports/redux/initialState.js");
 
-  __REACT_HOT_LOADER__.register(_default, "default", "/home/nathan/Code/granttracker-web/app/src/features/reports/redux/initialState.js");
+  __REACT_HOT_LOADER__.register(_default, "default", "C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/reports/redux/initialState.js");
 }();
 
 ;
@@ -46848,9 +46848,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(reducers, 'reducers', '/home/nathan/Code/granttracker-web/app/src/features/client-pdf/redux/reducer.js');
+  __REACT_HOT_LOADER__.register(reducers, 'reducers', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/client-pdf/redux/reducer.js');
 
-  __REACT_HOT_LOADER__.register(reducer, 'reducer', '/home/nathan/Code/granttracker-web/app/src/features/client-pdf/redux/reducer.js');
+  __REACT_HOT_LOADER__.register(reducer, 'reducer', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/client-pdf/redux/reducer.js');
 }();
 
 ;
@@ -46883,9 +46883,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(initialState, "initialState", "/home/nathan/Code/granttracker-web/app/src/features/client-pdf/redux/initialState.js");
+  __REACT_HOT_LOADER__.register(initialState, "initialState", "C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/client-pdf/redux/initialState.js");
 
-  __REACT_HOT_LOADER__.register(_default, "default", "/home/nathan/Code/granttracker-web/app/src/features/client-pdf/redux/initialState.js");
+  __REACT_HOT_LOADER__.register(_default, "default", "C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/client-pdf/redux/initialState.js");
 }();
 
 ;
@@ -46987,13 +46987,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(childRoutes, 'childRoutes', '/home/nathan/Code/granttracker-web/app/src/common/routeConfig.js');
+  __REACT_HOT_LOADER__.register(childRoutes, 'childRoutes', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/common/routeConfig.js');
 
-  __REACT_HOT_LOADER__.register(routes, 'routes', '/home/nathan/Code/granttracker-web/app/src/common/routeConfig.js');
+  __REACT_HOT_LOADER__.register(routes, 'routes', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/common/routeConfig.js');
 
-  __REACT_HOT_LOADER__.register(handleIndexRoute, 'handleIndexRoute', '/home/nathan/Code/granttracker-web/app/src/common/routeConfig.js');
+  __REACT_HOT_LOADER__.register(handleIndexRoute, 'handleIndexRoute', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/common/routeConfig.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/common/routeConfig.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/common/routeConfig.js');
 }();
 
 ;
@@ -47070,9 +47070,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(App, 'App', '/home/nathan/Code/granttracker-web/app/src/features/home/App.js');
+  __REACT_HOT_LOADER__.register(App, 'App', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/home/App.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/features/home/App.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/home/App.js');
 }();
 
 ;
@@ -47181,13 +47181,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(DefaultPage, 'DefaultPage', '/home/nathan/Code/granttracker-web/app/src/features/home/DefaultPage.js');
+  __REACT_HOT_LOADER__.register(DefaultPage, 'DefaultPage', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/home/DefaultPage.js');
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/home/nathan/Code/granttracker-web/app/src/features/home/DefaultPage.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/home/DefaultPage.js');
 
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/home/nathan/Code/granttracker-web/app/src/features/home/DefaultPage.js');
+  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/home/DefaultPage.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/features/home/DefaultPage.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/home/DefaultPage.js');
 }();
 
 ;
@@ -47849,9 +47849,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(PageNotFound, "PageNotFound", "/home/nathan/Code/granttracker-web/app/src/features/common/PageNotFound.js");
+  __REACT_HOT_LOADER__.register(PageNotFound, "PageNotFound", "C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/common/PageNotFound.js");
 
-  __REACT_HOT_LOADER__.register(_default, "default", "/home/nathan/Code/granttracker-web/app/src/features/common/PageNotFound.js");
+  __REACT_HOT_LOADER__.register(_default, "default", "C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/common/PageNotFound.js");
 }();
 
 ;
@@ -48004,9 +48004,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(AssistanceLog, 'AssistanceLog', '/home/nathan/Code/granttracker-web/app/src/features/common/AssistanceLog.js');
+  __REACT_HOT_LOADER__.register(AssistanceLog, 'AssistanceLog', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/common/AssistanceLog.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/features/common/AssistanceLog.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/common/AssistanceLog.js');
 }();
 
 ;
@@ -51757,7 +51757,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/features/home/route.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/home/route.js');
 }();
 
 ;
@@ -51788,7 +51788,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/features/common/route.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/common/route.js');
 }();
 
 ;
@@ -51821,7 +51821,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/features/app/route.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/app/route.js');
 }();
 
 ;
@@ -51921,13 +51921,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(DefaultPage, 'DefaultPage', '/home/nathan/Code/granttracker-web/app/src/features/app/DefaultPage.js');
+  __REACT_HOT_LOADER__.register(DefaultPage, 'DefaultPage', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/app/DefaultPage.js');
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/home/nathan/Code/granttracker-web/app/src/features/app/DefaultPage.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/app/DefaultPage.js');
 
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/home/nathan/Code/granttracker-web/app/src/features/app/DefaultPage.js');
+  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/app/DefaultPage.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/features/app/DefaultPage.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/app/DefaultPage.js');
 }();
 
 ;
@@ -52165,13 +52165,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(Container, 'Container', '/home/nathan/Code/granttracker-web/app/src/features/app/Container.js');
+  __REACT_HOT_LOADER__.register(Container, 'Container', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/app/Container.js');
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/home/nathan/Code/granttracker-web/app/src/features/app/Container.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/app/Container.js');
 
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/home/nathan/Code/granttracker-web/app/src/features/app/Container.js');
+  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/app/Container.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/features/app/Container.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/app/Container.js');
 }();
 
 ;
@@ -52309,13 +52309,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(DefaultPage, 'DefaultPage', '/home/nathan/Code/granttracker-web/app/src/features/modals/DefaultPage.js');
+  __REACT_HOT_LOADER__.register(DefaultPage, 'DefaultPage', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/modals/DefaultPage.js');
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/home/nathan/Code/granttracker-web/app/src/features/modals/DefaultPage.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/modals/DefaultPage.js');
 
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/home/nathan/Code/granttracker-web/app/src/features/modals/DefaultPage.js');
+  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/modals/DefaultPage.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/features/modals/DefaultPage.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/modals/DefaultPage.js');
 }();
 
 ;
@@ -52453,13 +52453,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ClientSearchModal, 'ClientSearchModal', '/home/nathan/Code/granttracker-web/app/src/features/modals/ClientSearchModal.js');
+  __REACT_HOT_LOADER__.register(ClientSearchModal, 'ClientSearchModal', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/modals/ClientSearchModal.js');
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/home/nathan/Code/granttracker-web/app/src/features/modals/ClientSearchModal.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/modals/ClientSearchModal.js');
 
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/home/nathan/Code/granttracker-web/app/src/features/modals/ClientSearchModal.js');
+  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/modals/ClientSearchModal.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/features/modals/ClientSearchModal.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/modals/ClientSearchModal.js');
 }();
 
 ;
@@ -52559,13 +52559,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(DefaultPage, 'DefaultPage', '/home/nathan/Code/granttracker-web/app/src/features/clients/DefaultPage.js');
+  __REACT_HOT_LOADER__.register(DefaultPage, 'DefaultPage', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/DefaultPage.js');
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/home/nathan/Code/granttracker-web/app/src/features/clients/DefaultPage.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/DefaultPage.js');
 
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/home/nathan/Code/granttracker-web/app/src/features/clients/DefaultPage.js');
+  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/DefaultPage.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/features/clients/DefaultPage.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/DefaultPage.js');
 }();
 
 ;
@@ -52698,13 +52698,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(Search, 'Search', '/home/nathan/Code/granttracker-web/app/src/features/clients/Search.js');
+  __REACT_HOT_LOADER__.register(Search, 'Search', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/Search.js');
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/home/nathan/Code/granttracker-web/app/src/features/clients/Search.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/Search.js');
 
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/home/nathan/Code/granttracker-web/app/src/features/clients/Search.js');
+  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/Search.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/features/clients/Search.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/Search.js');
 }();
 
 ;
@@ -52889,13 +52889,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(Form, 'Form', '/home/nathan/Code/granttracker-web/app/src/features/clients/Form.js');
+  __REACT_HOT_LOADER__.register(Form, 'Form', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/Form.js');
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/home/nathan/Code/granttracker-web/app/src/features/clients/Form.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/Form.js');
 
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/home/nathan/Code/granttracker-web/app/src/features/clients/Form.js');
+  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/Form.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/features/clients/Form.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/Form.js');
 }();
 
 ;
@@ -53123,13 +53123,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(Table, 'Table', '/home/nathan/Code/granttracker-web/app/src/features/clients/Table.js');
+  __REACT_HOT_LOADER__.register(Table, 'Table', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/Table.js');
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/home/nathan/Code/granttracker-web/app/src/features/clients/Table.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/Table.js');
 
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/home/nathan/Code/granttracker-web/app/src/features/clients/Table.js');
+  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/Table.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/features/clients/Table.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/Table.js');
 }();
 
 ;
@@ -53534,13 +53534,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(Detail, 'Detail', '/home/nathan/Code/granttracker-web/app/src/features/clients/Detail.js');
+  __REACT_HOT_LOADER__.register(Detail, 'Detail', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/Detail.js');
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/home/nathan/Code/granttracker-web/app/src/features/clients/Detail.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/Detail.js');
 
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/home/nathan/Code/granttracker-web/app/src/features/clients/Detail.js');
+  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/Detail.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/features/clients/Detail.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/Detail.js');
 }();
 
 ;
@@ -53869,13 +53869,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(TabProfile, 'TabProfile', '/home/nathan/Code/granttracker-web/app/src/features/clients/TabProfile.js');
+  __REACT_HOT_LOADER__.register(TabProfile, 'TabProfile', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/TabProfile.js');
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/home/nathan/Code/granttracker-web/app/src/features/clients/TabProfile.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/TabProfile.js');
 
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/home/nathan/Code/granttracker-web/app/src/features/clients/TabProfile.js');
+  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/TabProfile.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/features/clients/TabProfile.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/TabProfile.js');
 }();
 
 ;
@@ -54130,13 +54130,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(TabDemographics, 'TabDemographics', '/home/nathan/Code/granttracker-web/app/src/features/clients/TabDemographics.js');
+  __REACT_HOT_LOADER__.register(TabDemographics, 'TabDemographics', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/TabDemographics.js');
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/home/nathan/Code/granttracker-web/app/src/features/clients/TabDemographics.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/TabDemographics.js');
 
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/home/nathan/Code/granttracker-web/app/src/features/clients/TabDemographics.js');
+  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/TabDemographics.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/features/clients/TabDemographics.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/TabDemographics.js');
 }();
 
 ;
@@ -54455,13 +54455,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(TabHousehold, 'TabHousehold', '/home/nathan/Code/granttracker-web/app/src/features/clients/TabHousehold.js');
+  __REACT_HOT_LOADER__.register(TabHousehold, 'TabHousehold', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/TabHousehold.js');
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/home/nathan/Code/granttracker-web/app/src/features/clients/TabHousehold.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/TabHousehold.js');
 
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/home/nathan/Code/granttracker-web/app/src/features/clients/TabHousehold.js');
+  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/TabHousehold.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/features/clients/TabHousehold.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/TabHousehold.js');
 }();
 
 ;
@@ -55166,13 +55166,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(TabIncome, 'TabIncome', '/home/nathan/Code/granttracker-web/app/src/features/clients/TabIncome.js');
+  __REACT_HOT_LOADER__.register(TabIncome, 'TabIncome', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/TabIncome.js');
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/home/nathan/Code/granttracker-web/app/src/features/clients/TabIncome.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/TabIncome.js');
 
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/home/nathan/Code/granttracker-web/app/src/features/clients/TabIncome.js');
+  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/TabIncome.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/features/clients/TabIncome.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/TabIncome.js');
 }();
 
 ;
@@ -55295,13 +55295,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(LogOutButton, 'LogOutButton', '/home/nathan/Code/granttracker-web/app/src/features/app/LogOutButton.js');
+  __REACT_HOT_LOADER__.register(LogOutButton, 'LogOutButton', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/app/LogOutButton.js');
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/home/nathan/Code/granttracker-web/app/src/features/app/LogOutButton.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/app/LogOutButton.js');
 
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/home/nathan/Code/granttracker-web/app/src/features/app/LogOutButton.js');
+  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/app/LogOutButton.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/features/app/LogOutButton.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/app/LogOutButton.js');
 }();
 
 ;
@@ -55334,7 +55334,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/features/clients/route.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/clients/route.js');
 }();
 
 ;
@@ -55367,7 +55367,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/features/grants/route.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/route.js');
 }();
 
 ;
@@ -55467,13 +55467,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(DefaultPage, 'DefaultPage', '/home/nathan/Code/granttracker-web/app/src/features/grants/DefaultPage.js');
+  __REACT_HOT_LOADER__.register(DefaultPage, 'DefaultPage', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/DefaultPage.js');
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/home/nathan/Code/granttracker-web/app/src/features/grants/DefaultPage.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/DefaultPage.js');
 
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/home/nathan/Code/granttracker-web/app/src/features/grants/DefaultPage.js');
+  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/DefaultPage.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/features/grants/DefaultPage.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/DefaultPage.js');
 }();
 
 ;
@@ -55588,13 +55588,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(Search, 'Search', '/home/nathan/Code/granttracker-web/app/src/features/grants/Search.js');
+  __REACT_HOT_LOADER__.register(Search, 'Search', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/Search.js');
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/home/nathan/Code/granttracker-web/app/src/features/grants/Search.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/Search.js');
 
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/home/nathan/Code/granttracker-web/app/src/features/grants/Search.js');
+  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/Search.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/features/grants/Search.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/Search.js');
 }();
 
 ;
@@ -55846,13 +55846,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(Table, 'Table', '/home/nathan/Code/granttracker-web/app/src/features/grants/Table.js');
+  __REACT_HOT_LOADER__.register(Table, 'Table', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/Table.js');
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/home/nathan/Code/granttracker-web/app/src/features/grants/Table.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/Table.js');
 
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/home/nathan/Code/granttracker-web/app/src/features/grants/Table.js');
+  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/Table.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/features/grants/Table.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/Table.js');
 }();
 
 ;
@@ -56038,13 +56038,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(Form, 'Form', '/home/nathan/Code/granttracker-web/app/src/features/grants/Form.js');
+  __REACT_HOT_LOADER__.register(Form, 'Form', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/Form.js');
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/home/nathan/Code/granttracker-web/app/src/features/grants/Form.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/Form.js');
 
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/home/nathan/Code/granttracker-web/app/src/features/grants/Form.js');
+  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/Form.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/features/grants/Form.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/Form.js');
 }();
 
 ;
@@ -56390,13 +56390,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(Detail, 'Detail', '/home/nathan/Code/granttracker-web/app/src/features/grants/Detail.js');
+  __REACT_HOT_LOADER__.register(Detail, 'Detail', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/Detail.js');
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/home/nathan/Code/granttracker-web/app/src/features/grants/Detail.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/Detail.js');
 
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/home/nathan/Code/granttracker-web/app/src/features/grants/Detail.js');
+  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/Detail.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/features/grants/Detail.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/Detail.js');
 }();
 
 ;
@@ -56405,7 +56405,7 @@ var _temp = function () {
 /* 698 */
 /***/ (function(module, exports, __webpack_require__) {
 
-!function(e,t){ true?module.exports=t(__webpack_require__(2)):"function"==typeof define&&define.amd?define(["react"],t):"object"==typeof exports?exports.reactTextMask=t(require("react")):e.reactTextMask=t(e.React)}(this,function(e){return function(e){function t(n){if(r[n])return r[n].exports;var o=r[n]={exports:{},id:n,loaded:!1};return e[n].call(o.exports,o,o.exports,t),o.loaded=!0,o.exports}var r={};return t.m=e,t.c=r,t.p="",t(0)}([function(e,t,r){"use strict";function n(e){return e&&e.__esModule?e:{default:e}}function o(e,t){var r={};for(var n in e)t.indexOf(n)>=0||Object.prototype.hasOwnProperty.call(e,n)&&(r[n]=e[n]);return r}function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}function a(e,t){if(!e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return!t||"object"!=typeof t&&"function"!=typeof t?e:t}function u(e,t){if("function"!=typeof t&&null!==t)throw new TypeError("Super expression must either be null or a function, not "+typeof t);e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,enumerable:!1,writable:!0,configurable:!0}}),t&&(Object.setPrototypeOf?Object.setPrototypeOf(e,t):e.__proto__=t)}Object.defineProperty(t,"__esModule",{value:!0}),t.conformToMask=void 0;var l=Object.assign||function(e){for(var t=1;t<arguments.length;t++){var r=arguments[t];for(var n in r)Object.prototype.hasOwnProperty.call(r,n)&&(e[n]=r[n])}return e},s=function(){function e(e,t){for(var r=0;r<t.length;r++){var n=t[r];n.enumerable=n.enumerable||!1,n.configurable=!0,"value"in n&&(n.writable=!0),Object.defineProperty(e,n.key,n)}}return function(t,r,n){return r&&e(t.prototype,r),n&&e(t,n),t}}(),f=r(2);Object.defineProperty(t,"conformToMask",{enumerable:!0,get:function(){return n(f).default}});var c=r(11),d=n(c),p=r(9),h=n(p),v=r(5),y=n(v),m=function(e){function t(){var e;i(this,t);for(var r=arguments.length,n=Array(r),o=0;o<r;o++)n[o]=arguments[o];var u=a(this,(e=t.__proto__||Object.getPrototypeOf(t)).call.apply(e,[this].concat(n)));return u.onBlur=u.onBlur.bind(u),u.onChange=u.onChange.bind(u),u}return u(t,e),s(t,[{key:"initTextMask",value:function(){var e=this.props,t=this.props.value;this.textMaskInputElement=(0,y.default)(l({inputElement:this.inputElement},e)),this.textMaskInputElement.update(t)}},{key:"componentDidMount",value:function(){this.initTextMask()}},{key:"componentDidUpdate",value:function(){this.initTextMask()}},{key:"render",value:function e(){var t=this,r=this.props,e=r.render,n=o(r,["render"]);delete n.mask,delete n.guide,delete n.pipe,delete n.placeholderChar,delete n.keepCharPositions,delete n.value,delete n.onBlur,delete n.onChange,delete n.showMask;var i=function(e){return t.inputElement=e};return e(i,l({onBlur:this.onBlur,onChange:this.onChange,defaultValue:this.props.value},n))}},{key:"onChange",value:function(e){this.textMaskInputElement.update(),"function"==typeof this.props.onChange&&this.props.onChange(e)}},{key:"onBlur",value:function(e){"function"==typeof this.props.onBlur&&this.props.onBlur(e)}}]),t}(d.default.Component);t.default=m,m.propTypes={mask:h.default.oneOfType([h.default.array,h.default.func,h.default.bool,h.default.shape({mask:h.default.oneOfType([h.default.array,h.default.func]),pipe:h.default.func})]).isRequired,guide:h.default.bool,value:h.default.oneOfType([h.default.string,h.default.number]),pipe:h.default.func,placeholderChar:h.default.string,keepCharPositions:h.default.bool,showMask:h.default.bool},m.defaultProps={render:function(e,t){return d.default.createElement("input",l({ref:e},t))}}},function(e,t){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.placeholderChar="_"},function(e,t,r){"use strict";function n(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:a,t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:a,r=arguments.length>2&&void 0!==arguments[2]?arguments[2]:{},n=r.guide,u=void 0===n||n,l=r.previousConformedValue,s=void 0===l?a:l,f=r.placeholderChar,c=void 0===f?i.placeholderChar:f,d=r.placeholder,p=void 0===d?(0,o.convertMaskToPlaceholder)(t,c):d,h=r.currentCaretPosition,v=r.keepCharPositions,y=u===!1&&void 0!==s,m=e.length,g=s.length,b=p.length,C=t.length,O=m-g,k=O>0,P=h+(k?-O:0),x=P+Math.abs(O);if(v===!0&&!k){for(var T=a,_=P;_<x;_++)p[_]===c&&(T+=c);e=e.slice(0,P)+T+e.slice(P,m)}for(var w=e.split(a).map(function(e,t){return{char:e,isNew:t>=P&&t<x}}),M=m-1;M>=0;M--){var j=w[M].char;if(j!==c){var S=M>=P&&g===C;j===p[S?M-O:M]&&w.splice(M,1)}}var E=a,R=!1;e:for(var V=0;V<b;V++){var N=p[V];if(N===c){if(w.length>0)for(;w.length>0;){var B=w.shift(),I=B.char,A=B.isNew;if(I===c&&y!==!0){E+=c;continue e}if(t[V].test(I)){if(v===!0&&A!==!1&&s!==a&&u!==!1&&k){for(var q=w.length,D=null,F=0;F<q;F++){var L=w[F];if(L.char!==c&&L.isNew===!1)break;if(L.char===c){D=F;break}}null!==D?(E+=I,w.splice(D,1)):V--}else E+=I;continue e}R=!0}y===!1&&(E+=p.substr(V,b));break}E+=N}if(y&&k===!1){for(var J=null,U=0;U<E.length;U++)p[U]===c&&(J=U);E=null!==J?E.substr(0,J+1):a}return{conformedValue:E,meta:{someCharsRejected:R}}}Object.defineProperty(t,"__esModule",{value:!0}),t.default=n;var o=r(3),i=r(1),a=""},function(e,t,r){"use strict";function n(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:l,t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:u.placeholderChar;if(e.indexOf(t)!==-1)throw new Error("Placeholder character must not be used as part of the mask. Please specify a character that is not present in your mask as your placeholder character.\n\n"+("The placeholder character that was received is: "+JSON.stringify(t)+"\n\n")+("The mask that was received is: "+JSON.stringify(e)));return e.map(function(e){return e instanceof RegExp?t:e}).join("")}function o(e){return"string"==typeof e||e instanceof String}function i(e){return"number"==typeof e&&void 0===e.length&&!isNaN(e)}function a(e){for(var t=[],r=void 0;r=e.indexOf(s),r!==-1;)t.push(r),e.splice(r,1);return{maskWithoutCaretTraps:e,indexes:t}}Object.defineProperty(t,"__esModule",{value:!0}),t.convertMaskToPlaceholder=n,t.isString=o,t.isNumber=i,t.processCaretTraps=a;var u=r(1),l=[],s="[]"},function(e,t){"use strict";function r(e){var t=e.previousConformedValue,r=void 0===t?o:t,i=e.previousPlaceholder,a=void 0===i?o:i,u=e.currentCaretPosition,l=void 0===u?0:u,s=e.conformedValue,f=e.rawValue,c=e.placeholderChar,d=e.placeholder,p=e.indexesOfPipedChars,h=void 0===p?n:p,v=e.caretTrapIndexes,y=void 0===v?n:v;if(0===l)return 0;var m=f.length,g=r.length,b=d.length,C=s.length,O=m-g,k=O>0,P=0===g,x=O>1&&!k&&!P;if(x)return l;var T=k&&(r===s||s===d),_=0,w=void 0,M=void 0;if(T)_=l-O;else{var j=s.toLowerCase(),S=f.toLowerCase(),E=S.substr(0,l).split(o),R=E.filter(function(e){return j.indexOf(e)!==-1});M=R[R.length-1];var V=a.substr(0,R.length).split(o).filter(function(e){return e!==c}).length,N=d.substr(0,R.length).split(o).filter(function(e){return e!==c}).length,B=N!==V,I=void 0!==a[R.length-1]&&void 0!==d[R.length-2]&&a[R.length-1]!==c&&a[R.length-1]!==d[R.length-1]&&a[R.length-1]===d[R.length-2];!k&&(B||I)&&V>0&&d.indexOf(M)>-1&&void 0!==f[l]&&(w=!0,M=f[l]);for(var A=h.map(function(e){return j[e]}),q=A.filter(function(e){return e===M}).length,D=R.filter(function(e){return e===M}).length,F=d.substr(0,d.indexOf(c)).split(o).filter(function(e,t){return e===M&&f[t]!==e}).length,L=F+D+q+(w?1:0),J=0,U=0;U<C;U++){var W=j[U];if(_=U+1,W===M&&J++,J>=L)break}}if(k){for(var H=_,Y=_;Y<=b;Y++)if(d[Y]===c&&(H=Y),d[Y]===c||y.indexOf(Y)!==-1||Y===b)return H}else if(w){for(var z=_-1;z>=0;z--)if(s[z]===M||y.indexOf(z)!==-1||0===z)return z}else for(var G=_;G>=0;G--)if(d[G-1]===c||y.indexOf(G)!==-1||0===G)return G}Object.defineProperty(t,"__esModule",{value:!0}),t.default=r;var n=[],o=""},function(e,t,r){"use strict";function n(e){return e&&e.__esModule?e:{default:e}}function o(e){var t={previousConformedValue:void 0,previousPlaceholder:void 0};return{state:t,update:function(r){var n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:e,o=n.inputElement,s=n.mask,c=n.guide,m=n.pipe,b=n.placeholderChar,C=void 0===b?h.placeholderChar:b,O=n.keepCharPositions,k=void 0!==O&&O,P=n.showMask,x=void 0!==P&&P;if("undefined"==typeof r&&(r=o.value),r!==t.previousConformedValue){("undefined"==typeof s?"undefined":l(s))===g&&void 0!==s.pipe&&void 0!==s.mask&&(m=s.pipe,s=s.mask);var T=void 0,_=void 0;if(s instanceof Array&&(T=(0,p.convertMaskToPlaceholder)(s,C)),s!==!1){var w=a(r),M=o.selectionEnd,j=t.previousConformedValue,S=t.previousPlaceholder,E=void 0;if(("undefined"==typeof s?"undefined":l(s))===v){if(_=s(w,{currentCaretPosition:M,previousConformedValue:j,placeholderChar:C}),_===!1)return;var R=(0,p.processCaretTraps)(_),V=R.maskWithoutCaretTraps,N=R.indexes;_=V,E=N,T=(0,p.convertMaskToPlaceholder)(_,C)}else _=s;var B={previousConformedValue:j,guide:c,placeholderChar:C,pipe:m,placeholder:T,currentCaretPosition:M,keepCharPositions:k},I=(0,d.default)(w,_,B),A=I.conformedValue,q=("undefined"==typeof m?"undefined":l(m))===v,D={};q&&(D=m(A,u({rawValue:w},B)),D===!1?D={value:j,rejected:!0}:(0,p.isString)(D)&&(D={value:D}));var F=q?D.value:A,L=(0,f.default)({previousConformedValue:j,previousPlaceholder:S,conformedValue:F,placeholder:T,rawValue:w,currentCaretPosition:M,placeholderChar:C,indexesOfPipedChars:D.indexesOfPipedChars,caretTrapIndexes:E}),J=F===T&&0===L,U=x?T:y,W=J?U:F;t.previousConformedValue=W,t.previousPlaceholder=T,o.value!==W&&(o.value=W,i(o,L))}}}}}function i(e,t){document.activeElement===e&&(b?C(function(){return e.setSelectionRange(t,t,m)},0):e.setSelectionRange(t,t,m))}function a(e){if((0,p.isString)(e))return e;if((0,p.isNumber)(e))return String(e);if(void 0===e||null===e)return y;throw new Error("The 'value' provided to Text Mask needs to be a string or a number. The value received was:\n\n "+JSON.stringify(e))}Object.defineProperty(t,"__esModule",{value:!0});var u=Object.assign||function(e){for(var t=1;t<arguments.length;t++){var r=arguments[t];for(var n in r)Object.prototype.hasOwnProperty.call(r,n)&&(e[n]=r[n])}return e},l="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};t.default=o;var s=r(4),f=n(s),c=r(2),d=n(c),p=r(3),h=r(1),v="function",y="",m="none",g="object",b="undefined"!=typeof navigator&&/Android/i.test(navigator.userAgent),C="undefined"!=typeof requestAnimationFrame?requestAnimationFrame:setTimeout},function(e,t){"use strict";function r(e){return function(){return e}}var n=function(){};n.thatReturns=r,n.thatReturnsFalse=r(!1),n.thatReturnsTrue=r(!0),n.thatReturnsNull=r(null),n.thatReturnsThis=function(){return this},n.thatReturnsArgument=function(e){return e},e.exports=n},function(e,t,r){"use strict";function n(e,t,r,n,i,a,u,l){if(o(t),!e){var s;if(void 0===t)s=new Error("Minified exception occurred; use the non-minified dev environment for the full error message and additional helpful warnings.");else{var f=[r,n,i,a,u,l],c=0;s=new Error(t.replace(/%s/g,function(){return f[c++]})),s.name="Invariant Violation"}throw s.framesToPop=1,s}}var o=function(e){};e.exports=n},function(e,t,r){"use strict";var n=r(6),o=r(7),i=r(10);e.exports=function(){function e(e,t,r,n,a,u){u!==i&&o(!1,"Calling PropTypes validators directly is not supported by the `prop-types` package. Use PropTypes.checkPropTypes() to call them. Read more at http://fb.me/use-check-prop-types")}function t(){return e}e.isRequired=e;var r={array:e,bool:e,func:e,number:e,object:e,string:e,symbol:e,any:e,arrayOf:t,element:e,instanceOf:t,node:e,objectOf:t,oneOf:t,oneOfType:t,shape:t};return r.checkPropTypes=n,r.PropTypes=r,r}},function(e,t,r){"use strict";"function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e.exports=r(8)()},function(e,t){"use strict";var r="SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED";e.exports=r},function(t,r){t.exports=e}])});
+!function(e,t){ true?module.exports=t(__webpack_require__(2)):"function"==typeof define&&define.amd?define(["react"],t):"object"==typeof exports?exports.reactTextMask=t(require("react")):e.reactTextMask=t(e.React)}(this,function(e){return function(e){function t(n){if(r[n])return r[n].exports;var o=r[n]={exports:{},id:n,loaded:!1};return e[n].call(o.exports,o,o.exports,t),o.loaded=!0,o.exports}var r={};return t.m=e,t.c=r,t.p="",t(0)}([function(e,t,r){"use strict";function n(e){return e&&e.__esModule?e:{default:e}}function o(e,t){var r={};for(var n in e)t.indexOf(n)>=0||Object.prototype.hasOwnProperty.call(e,n)&&(r[n]=e[n]);return r}function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}function a(e,t){if(!e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return!t||"object"!=typeof t&&"function"!=typeof t?e:t}function u(e,t){if("function"!=typeof t&&null!==t)throw new TypeError("Super expression must either be null or a function, not "+typeof t);e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,enumerable:!1,writable:!0,configurable:!0}}),t&&(Object.setPrototypeOf?Object.setPrototypeOf(e,t):e.__proto__=t)}Object.defineProperty(t,"__esModule",{value:!0}),t.conformToMask=void 0;var l=Object.assign||function(e){for(var t=1;t<arguments.length;t++){var r=arguments[t];for(var n in r)Object.prototype.hasOwnProperty.call(r,n)&&(e[n]=r[n])}return e},s=function(){function e(e,t){for(var r=0;r<t.length;r++){var n=t[r];n.enumerable=n.enumerable||!1,n.configurable=!0,"value"in n&&(n.writable=!0),Object.defineProperty(e,n.key,n)}}return function(t,r,n){return r&&e(t.prototype,r),n&&e(t,n),t}}(),f=r(2);Object.defineProperty(t,"conformToMask",{enumerable:!0,get:function(){return n(f).default}});var c=r(11),d=n(c),p=r(9),h=n(p),v=r(5),y=n(v),m=function(e){function t(){var e;i(this,t);for(var r=arguments.length,n=Array(r),o=0;o<r;o++)n[o]=arguments[o];var u=a(this,(e=t.__proto__||Object.getPrototypeOf(t)).call.apply(e,[this].concat(n)));return u.onBlur=u.onBlur.bind(u),u.onChange=u.onChange.bind(u),u}return u(t,e),s(t,[{key:"initTextMask",value:function(){var e=this.props,t=this.props.value;this.textMaskInputElement=(0,y.default)(l({inputElement:this.inputElement},e)),this.textMaskInputElement.update(t)}},{key:"componentDidMount",value:function(){this.initTextMask()}},{key:"componentDidUpdate",value:function(){this.initTextMask()}},{key:"render",value:function e(){var t=this,r=this.props,e=r.render,n=o(r,["render"]);delete n.mask,delete n.guide,delete n.pipe,delete n.placeholderChar,delete n.keepCharPositions,delete n.value,delete n.onBlur,delete n.onChange,delete n.showMask;var i=function(e){return t.inputElement=e};return e(i,l({onBlur:this.onBlur,onChange:this.onChange,defaultValue:this.props.value},n))}},{key:"onChange",value:function(e){this.textMaskInputElement.update(),"function"==typeof this.props.onChange&&this.props.onChange(e)}},{key:"onBlur",value:function(e){"function"==typeof this.props.onBlur&&this.props.onBlur(e)}}]),t}(d.default.Component);t.default=m,m.propTypes={mask:h.default.oneOfType([h.default.array,h.default.func,h.default.bool,h.default.shape({mask:h.default.oneOfType([h.default.array,h.default.func]),pipe:h.default.func})]).isRequired,guide:h.default.bool,value:h.default.oneOfType([h.default.string,h.default.number]),pipe:h.default.func,placeholderChar:h.default.string,keepCharPositions:h.default.bool,showMask:h.default.bool},m.defaultProps={render:function(e,t){return d.default.createElement("input",l({ref:e},t))}}},function(e,t){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.placeholderChar="_"},function(e,t,r){"use strict";function n(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:a,t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:a,r=arguments.length>2&&void 0!==arguments[2]?arguments[2]:{},n=r.guide,u=void 0===n||n,l=r.previousConformedValue,s=void 0===l?a:l,f=r.placeholderChar,c=void 0===f?i.placeholderChar:f,d=r.placeholder,p=void 0===d?(0,o.convertMaskToPlaceholder)(t,c):d,h=r.currentCaretPosition,v=r.keepCharPositions,y=u===!1&&void 0!==s,m=e.length,g=s.length,b=p.length,C=t.length,O=m-g,k=O>0,P=h+(k?-O:0),x=P+Math.abs(O);if(v===!0&&!k){for(var T=a,_=P;_<x;_++)p[_]===c&&(T+=c);e=e.slice(0,P)+T+e.slice(P,m)}for(var w=e.split(a).map(function(e,t){return{char:e,isNew:t>=P&&t<x}}),M=m-1;M>=0;M--){var j=w[M].char;if(j!==c){var S=M>=P&&g===C;j===p[S?M-O:M]&&w.splice(M,1)}}var E=a,R=!1;e:for(var V=0;V<b;V++){var N=p[V];if(N===c){if(w.length>0)for(;w.length>0;){var B=w.shift(),I=B.char,A=B.isNew;if(I===c&&y!==!0){E+=c;continue e}if(t[V].test(I)){if(v===!0&&A!==!1&&s!==a&&u!==!1&&k){for(var q=w.length,D=null,F=0;F<q;F++){var L=w[F];if(L.char!==c&&L.isNew===!1)break;if(L.char===c){D=F;break}}null!==D?(E+=I,w.splice(D,1)):V--}else E+=I;continue e}R=!0}y===!1&&(E+=p.substr(V,b));break}E+=N}if(y&&k===!1){for(var J=null,U=0;U<E.length;U++)p[U]===c&&(J=U);E=null!==J?E.substr(0,J+1):a}return{conformedValue:E,meta:{someCharsRejected:R}}}Object.defineProperty(t,"__esModule",{value:!0}),t.default=n;var o=r(3),i=r(1),a=""},function(e,t,r){"use strict";function n(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:l,t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:u.placeholderChar;if(e.indexOf(t)!==-1)throw new Error("Placeholder character must not be used as part of the mask. Please specify a character that is not present in your mask as your placeholder character.\n\n"+("The placeholder character that was received is: "+JSON.stringify(t)+"\n\n")+("The mask that was received is: "+JSON.stringify(e)));return e.map(function(e){return e instanceof RegExp?t:e}).join("")}function o(e){return"string"==typeof e||e instanceof String}function i(e){return"number"==typeof e&&void 0===e.length&&!isNaN(e)}function a(e){for(var t=[],r=void 0;r=e.indexOf(s),r!==-1;)t.push(r),e.splice(r,1);return{maskWithoutCaretTraps:e,indexes:t}}Object.defineProperty(t,"__esModule",{value:!0}),t.convertMaskToPlaceholder=n,t.isString=o,t.isNumber=i,t.processCaretTraps=a;var u=r(1),l=[],s="[]"},function(e,t){"use strict";function r(e){var t=e.previousConformedValue,r=void 0===t?o:t,i=e.previousPlaceholder,a=void 0===i?o:i,u=e.currentCaretPosition,l=void 0===u?0:u,s=e.conformedValue,f=e.rawValue,c=e.placeholderChar,d=e.placeholder,p=e.indexesOfPipedChars,h=void 0===p?n:p,v=e.caretTrapIndexes,y=void 0===v?n:v;if(0===l||!f.length)return 0;var m=f.length,g=r.length,b=d.length,C=s.length,O=m-g,k=O>0,P=0===g,x=O>1&&!k&&!P;if(x)return l;var T=k&&(r===s||s===d),_=0,w=void 0,M=void 0;if(T)_=l-O;else{var j=s.toLowerCase(),S=f.toLowerCase(),E=S.substr(0,l).split(o),R=E.filter(function(e){return j.indexOf(e)!==-1});M=R[R.length-1];var V=a.substr(0,R.length).split(o).filter(function(e){return e!==c}).length,N=d.substr(0,R.length).split(o).filter(function(e){return e!==c}).length,B=N!==V,I=void 0!==a[R.length-1]&&void 0!==d[R.length-2]&&a[R.length-1]!==c&&a[R.length-1]!==d[R.length-1]&&a[R.length-1]===d[R.length-2];!k&&(B||I)&&V>0&&d.indexOf(M)>-1&&void 0!==f[l]&&(w=!0,M=f[l]);for(var A=h.map(function(e){return j[e]}),q=A.filter(function(e){return e===M}).length,D=R.filter(function(e){return e===M}).length,F=d.substr(0,d.indexOf(c)).split(o).filter(function(e,t){return e===M&&f[t]!==e}).length,L=F+D+q+(w?1:0),J=0,U=0;U<C;U++){var W=j[U];if(_=U+1,W===M&&J++,J>=L)break}}if(k){for(var H=_,Y=_;Y<=b;Y++)if(d[Y]===c&&(H=Y),d[Y]===c||y.indexOf(Y)!==-1||Y===b)return H}else if(w){for(var z=_-1;z>=0;z--)if(s[z]===M||y.indexOf(z)!==-1||0===z)return z}else for(var G=_;G>=0;G--)if(d[G-1]===c||y.indexOf(G)!==-1||0===G)return G}Object.defineProperty(t,"__esModule",{value:!0}),t.default=r;var n=[],o=""},function(e,t,r){"use strict";function n(e){return e&&e.__esModule?e:{default:e}}function o(e){var t={previousConformedValue:void 0,previousPlaceholder:void 0};return{state:t,update:function(r){var n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:e,o=n.inputElement,s=n.mask,c=n.guide,m=n.pipe,b=n.placeholderChar,C=void 0===b?h.placeholderChar:b,O=n.keepCharPositions,k=void 0!==O&&O,P=n.showMask,x=void 0!==P&&P;if("undefined"==typeof r&&(r=o.value),r!==t.previousConformedValue){("undefined"==typeof s?"undefined":l(s))===g&&void 0!==s.pipe&&void 0!==s.mask&&(m=s.pipe,s=s.mask);var T=void 0,_=void 0;if(s instanceof Array&&(T=(0,p.convertMaskToPlaceholder)(s,C)),s!==!1){var w=a(r),M=o.selectionEnd,j=t.previousConformedValue,S=t.previousPlaceholder,E=void 0;if(("undefined"==typeof s?"undefined":l(s))===v){if(_=s(w,{currentCaretPosition:M,previousConformedValue:j,placeholderChar:C}),_===!1)return;var R=(0,p.processCaretTraps)(_),V=R.maskWithoutCaretTraps,N=R.indexes;_=V,E=N,T=(0,p.convertMaskToPlaceholder)(_,C)}else _=s;var B={previousConformedValue:j,guide:c,placeholderChar:C,pipe:m,placeholder:T,currentCaretPosition:M,keepCharPositions:k},I=(0,d.default)(w,_,B),A=I.conformedValue,q=("undefined"==typeof m?"undefined":l(m))===v,D={};q&&(D=m(A,u({rawValue:w},B)),D===!1?D={value:j,rejected:!0}:(0,p.isString)(D)&&(D={value:D}));var F=q?D.value:A,L=(0,f.default)({previousConformedValue:j,previousPlaceholder:S,conformedValue:F,placeholder:T,rawValue:w,currentCaretPosition:M,placeholderChar:C,indexesOfPipedChars:D.indexesOfPipedChars,caretTrapIndexes:E}),J=F===T&&0===L,U=x?T:y,W=J?U:F;t.previousConformedValue=W,t.previousPlaceholder=T,o.value!==W&&(o.value=W,i(o,L))}}}}}function i(e,t){document.activeElement===e&&(b?C(function(){return e.setSelectionRange(t,t,m)},0):e.setSelectionRange(t,t,m))}function a(e){if((0,p.isString)(e))return e;if((0,p.isNumber)(e))return String(e);if(void 0===e||null===e)return y;throw new Error("The 'value' provided to Text Mask needs to be a string or a number. The value received was:\n\n "+JSON.stringify(e))}Object.defineProperty(t,"__esModule",{value:!0});var u=Object.assign||function(e){for(var t=1;t<arguments.length;t++){var r=arguments[t];for(var n in r)Object.prototype.hasOwnProperty.call(r,n)&&(e[n]=r[n])}return e},l="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};t.default=o;var s=r(4),f=n(s),c=r(2),d=n(c),p=r(3),h=r(1),v="function",y="",m="none",g="object",b="undefined"!=typeof navigator&&/Android/i.test(navigator.userAgent),C="undefined"!=typeof requestAnimationFrame?requestAnimationFrame:setTimeout},function(e,t){"use strict";function r(e){return function(){return e}}var n=function(){};n.thatReturns=r,n.thatReturnsFalse=r(!1),n.thatReturnsTrue=r(!0),n.thatReturnsNull=r(null),n.thatReturnsThis=function(){return this},n.thatReturnsArgument=function(e){return e},e.exports=n},function(e,t,r){"use strict";function n(e,t,r,n,i,a,u,l){if(o(t),!e){var s;if(void 0===t)s=new Error("Minified exception occurred; use the non-minified dev environment for the full error message and additional helpful warnings.");else{var f=[r,n,i,a,u,l],c=0;s=new Error(t.replace(/%s/g,function(){return f[c++]})),s.name="Invariant Violation"}throw s.framesToPop=1,s}}var o=function(e){};e.exports=n},function(e,t,r){"use strict";var n=r(6),o=r(7),i=r(10);e.exports=function(){function e(e,t,r,n,a,u){u!==i&&o(!1,"Calling PropTypes validators directly is not supported by the `prop-types` package. Use PropTypes.checkPropTypes() to call them. Read more at http://fb.me/use-check-prop-types")}function t(){return e}e.isRequired=e;var r={array:e,bool:e,func:e,number:e,object:e,string:e,symbol:e,any:e,arrayOf:t,element:e,instanceOf:t,node:e,objectOf:t,oneOf:t,oneOfType:t,shape:t};return r.checkPropTypes=n,r.PropTypes=r,r}},function(e,t,r){"use strict";"function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e.exports=r(8)()},function(e,t){"use strict";var r="SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED";e.exports=r},function(t,r){t.exports=e}])});
 
 /***/ }),
 /* 699 */
@@ -56554,13 +56554,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(GrantsLog, 'GrantsLog', '/home/nathan/Code/granttracker-web/app/src/features/grants/GrantsLog.js');
+  __REACT_HOT_LOADER__.register(GrantsLog, 'GrantsLog', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/GrantsLog.js');
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/home/nathan/Code/granttracker-web/app/src/features/grants/GrantsLog.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/GrantsLog.js');
 
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/home/nathan/Code/granttracker-web/app/src/features/grants/GrantsLog.js');
+  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/GrantsLog.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/features/grants/GrantsLog.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/grants/GrantsLog.js');
 }();
 
 ;
@@ -56593,7 +56593,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/features/modals/route.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/modals/route.js');
 }();
 
 ;
@@ -56626,7 +56626,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/features/login/route.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/login/route.js');
 }();
 
 ;
@@ -56767,13 +56767,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(DefaultPage, 'DefaultPage', '/home/nathan/Code/granttracker-web/app/src/features/login/DefaultPage.js');
+  __REACT_HOT_LOADER__.register(DefaultPage, 'DefaultPage', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/login/DefaultPage.js');
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/home/nathan/Code/granttracker-web/app/src/features/login/DefaultPage.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/login/DefaultPage.js');
 
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/home/nathan/Code/granttracker-web/app/src/features/login/DefaultPage.js');
+  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/login/DefaultPage.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/features/login/DefaultPage.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/login/DefaultPage.js');
 }();
 
 ;
@@ -56956,13 +56956,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(Login, 'Login', '/home/nathan/Code/granttracker-web/app/src/features/login/Login.js');
+  __REACT_HOT_LOADER__.register(Login, 'Login', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/login/Login.js');
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/home/nathan/Code/granttracker-web/app/src/features/login/Login.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/login/Login.js');
 
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/home/nathan/Code/granttracker-web/app/src/features/login/Login.js');
+  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/login/Login.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/features/login/Login.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/login/Login.js');
 }();
 
 ;
@@ -56995,7 +56995,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/features/reports/route.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/reports/route.js');
 }();
 
 ;
@@ -57157,13 +57157,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(DefaultPage, 'DefaultPage', '/home/nathan/Code/granttracker-web/app/src/features/reports/DefaultPage.js');
+  __REACT_HOT_LOADER__.register(DefaultPage, 'DefaultPage', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/reports/DefaultPage.js');
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/home/nathan/Code/granttracker-web/app/src/features/reports/DefaultPage.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/reports/DefaultPage.js');
 
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/home/nathan/Code/granttracker-web/app/src/features/reports/DefaultPage.js');
+  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/reports/DefaultPage.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/features/reports/DefaultPage.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/reports/DefaultPage.js');
 }();
 
 ;
@@ -57468,13 +57468,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(Detail, 'Detail', '/home/nathan/Code/granttracker-web/app/src/features/reports/Detail.js');
+  __REACT_HOT_LOADER__.register(Detail, 'Detail', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/reports/Detail.js');
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/home/nathan/Code/granttracker-web/app/src/features/reports/Detail.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/reports/Detail.js');
 
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/home/nathan/Code/granttracker-web/app/src/features/reports/Detail.js');
+  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/reports/Detail.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/features/reports/Detail.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/reports/Detail.js');
 }();
 
 ;
@@ -57507,7 +57507,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/features/client-pdf/route.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/client-pdf/route.js');
 }();
 
 ;
@@ -57657,13 +57657,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(DefaultPage, 'DefaultPage', '/home/nathan/Code/granttracker-web/app/src/features/client-pdf/DefaultPage.js');
+  __REACT_HOT_LOADER__.register(DefaultPage, 'DefaultPage', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/client-pdf/DefaultPage.js');
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/home/nathan/Code/granttracker-web/app/src/features/client-pdf/DefaultPage.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/client-pdf/DefaultPage.js');
 
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/home/nathan/Code/granttracker-web/app/src/features/client-pdf/DefaultPage.js');
+  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/client-pdf/DefaultPage.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/features/client-pdf/DefaultPage.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/client-pdf/DefaultPage.js');
 }();
 
 ;
@@ -57763,13 +57763,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(Create, 'Create', '/home/nathan/Code/granttracker-web/app/src/features/client-pdf/Create.js');
+  __REACT_HOT_LOADER__.register(Create, 'Create', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/client-pdf/Create.js');
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/home/nathan/Code/granttracker-web/app/src/features/client-pdf/Create.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/client-pdf/Create.js');
 
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/home/nathan/Code/granttracker-web/app/src/features/client-pdf/Create.js');
+  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/client-pdf/Create.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/features/client-pdf/Create.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/client-pdf/Create.js');
 }();
 
 ;
@@ -57936,13 +57936,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(Consent, 'Consent', '/home/nathan/Code/granttracker-web/app/src/features/client-pdf/Consent.js');
+  __REACT_HOT_LOADER__.register(Consent, 'Consent', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/client-pdf/Consent.js');
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/home/nathan/Code/granttracker-web/app/src/features/client-pdf/Consent.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/client-pdf/Consent.js');
 
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/home/nathan/Code/granttracker-web/app/src/features/client-pdf/Consent.js');
+  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/client-pdf/Consent.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/features/client-pdf/Consent.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/features/client-pdf/Consent.js');
 }();
 
 ;
@@ -58404,11 +58404,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(renderRouteConfigV3, 'renderRouteConfigV3', '/home/nathan/Code/granttracker-web/app/src/Root.js');
+  __REACT_HOT_LOADER__.register(renderRouteConfigV3, 'renderRouteConfigV3', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/Root.js');
 
-  __REACT_HOT_LOADER__.register(Root, 'Root', '/home/nathan/Code/granttracker-web/app/src/Root.js');
+  __REACT_HOT_LOADER__.register(Root, 'Root', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/Root.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/home/nathan/Code/granttracker-web/app/src/Root.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Dave/Dropbox/Projects/granttracker-web/app/src/Root.js');
 }();
 
 ;
